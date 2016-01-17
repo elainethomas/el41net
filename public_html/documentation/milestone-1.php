@@ -7,7 +7,7 @@
 	<body>
 		<h1>Purpose</h1>
 		<p>
-			I would like my personal website project to showcase my programming abilities for potential employers.
+			My personal website project will be my first impression for potential employers.  On it's face it demonstrate It should showcase my past projects programming abilities
 		</p>
 
 		<h1>Audience</h1>
