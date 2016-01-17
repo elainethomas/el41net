@@ -12,7 +12,7 @@
 
 		<h1>Audience</h1>
 		<p>
-			Lorem Ipsum, meka leka hi meka hiney ho
+			Employers who want to hire junior web developers.  Other programmers who may be looking for a freelance programmer or business partner.
 		</p>
 
 		<h1>Goal</h1>
