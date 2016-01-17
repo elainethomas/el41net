@@ -12,7 +12,7 @@
 
 		<h1>Audience</h1>
 		<p>
-			Employers who want to hire junior web developers.  Other programmers who may be looking for a freelance programmer or business partner.
+			This site is designed for a two groups - employers who want to hire junior web developers and other programmers looking for a freelance programmer or business partner.
 		</p>
 
 		<h1>Goal</h1>
