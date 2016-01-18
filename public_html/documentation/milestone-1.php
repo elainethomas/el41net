@@ -52,25 +52,17 @@
 		<h3>Use Case</h3>
 		<h4>Basic Flow</h4>
 		<ul>
-			<li>Navigate to portfolio link
+			<li>At 2pm, Bob is working on his desktop PC in his office at SubG Stone when he receives an email notification from his IT manager.  He has been expecting an email with links to the five best qualified web developer's websites.
 				<ul>
-					<li>Click through photos
-					<ul>
-						<li>Use links at bottom of page to contact me</li>
-					</ul>
-					</li>
-				</ul>
-			</li>
-		</ul>
-		<!--<h4>Alternate Flow 1</h4>
-		<ul>
-			<li>Read through qualifications
-				<ul>
-					<li>Use nav bar to
+					<li>He selects the first link to evaluate the design abilities of the candidate.
 						<ul>
-							<li>Use nav bar to go to contacts
+							<li>After looking over the main page, Bob glances at qualifications before navigating to the developer's portfolio
 								<ul>
-									<li>Contact me to discuss a new project</li>
+									<li>Bob scrolls through the portfolio to the bottom of the page
+									<ul>
+										<li></li>
+									</ul>
+									</li>
 								</ul>
 							</li>
 						</ul>
@@ -78,11 +70,8 @@
 				</ul>
 			</li>
 		</ul>
-			<li>stuff</li>
-			<li>stuff</li>
-		</ul> -->
 	</body>
 </html>
 
 
-<!--detail the time, location, technology used, and the purpose or goal of your Persona's use of your site.-->
+detail the time, location, technology used, and the purpose or goal of your Persona's use of your site.
