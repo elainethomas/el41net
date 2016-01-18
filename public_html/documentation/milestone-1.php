@@ -22,7 +22,7 @@
 			<li>Act as my "home" on the web to showcase my work and highlight projects I've been a part of.</li>
 		</ul>
 		<hr>
-		<h2>Bob, Local Business Owner - SubG Stone, 56 yrs. old</h2>
+		<h2>Bob, Local Business Owner - SubG Stone, 60 yrs. old</h2>
 		<img src="BobDobbs-color.png" width="125" height="150"/>
 		<h3>"I was obliged to be industrious. Whoever is equally industrious will succeed equally well."</h3>
 		<p>
@@ -58,10 +58,14 @@
 						<ul>
 							<li>After looking over the main page, Bob glances at qualifications before navigating to the developer's portfolio
 								<ul>
-									<li>Bob scrolls through the portfolio to the bottom of the page
-									<ul>
-										<li></li>
-									</ul>
+									<li>Bob scrolls through the portfolio to see if the developer's design aesthetic will compliment SubG's
+										<ul>
+											<li>At the bottom of the page Bob sees the contact information for the website owner.
+												<ul>
+													<li>Bob clicks the email link and is returned to his email client to make arrangements with the developer.</li>
+												</ul>
+											</li>
+										</ul>
 									</li>
 								</ul>
 							</li>
@@ -72,6 +76,3 @@
 		</ul>
 	</body>
 </html>
-
-
-detail the time, location, technology used, and the purpose or goal of your Persona's use of your site.
