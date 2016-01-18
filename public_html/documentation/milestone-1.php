@@ -30,9 +30,9 @@
 		</p>
 		<h3>Needs</h3>
 		<ul>
+			<li>Quickly evaluate the developer's user experience capabilities</li>
 			<li>See the web developer's existing portfolio.</li>
-			<li>Check what programming languages the developer knows.</li>
-			<li>See what education the developer has.</li>
+			<li>Check the web developer's availability</li>
 		</ul>
 		<br>
 		<h3>Frustrations</h3>
