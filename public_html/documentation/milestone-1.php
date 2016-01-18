@@ -26,7 +26,7 @@
 		<img src="BobDobbs-color.png" width="125" height="150"/>
 		<h3>"I was obliged to be industrious. Whoever is equally industrious will succeed equally well."</h3>
 		<p>
-			Bob is the owner of a local stone working company.  His company's website hasn't been substantially updated in almost ten years.  Searching and ordering capabilities will open up new revenue streams.  Bob has built his business from the ground up since the late 1970s and has amassed a large customer database.  SubG Stone has weekly specials on a variety of products.  Currently, customers cannot order stone from the SubG website; customers can fill out a contact form to request information.  Bob believes his customers appreciate his no-nonsense way of doing business and will also appreciate a no-nonsense kind of website.
+			Bob is the owner of a local stone working company.  His company's website hasn't been substantially updated in almost ten years.  Searching and ordering capabilities could open up new revenue streams for his business.  Bob has built his business from the ground up since the late 1970s and has amassed a large customer database.  SubG Stone has weekly specials on a variety of products.  Currently, customers cannot order stone from the SubG website; customers can fill out a contact form to request information.  Bob believes his customers appreciate his no-nonsense way of doing business and will also appreciate a no-nonsense kind of website.
 		</p>
 		<h3>Needs</h3>
 		<ul>
