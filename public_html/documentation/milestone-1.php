@@ -26,7 +26,7 @@
 		<img src="BobDobbs-color.png" width="125" height="150"/>
 		<h3>"I was obliged to be industrious. Whoever is equally industrious will succeed equally well."</h3>
 		<p>
-			Bob is the owner of a local stone working company.  His company's website hasn't been substantially updated in almost ten years.  Searching and ordering capabilities could open up new revenue streams for his business.  Bob has built his business from the ground up since the late 1970s and has amassed a large customer database.  SubG Stone has weekly specials on a variety of products.  Currently, customers cannot order stone from the SubG website; customers can fill out a contact form to request information.  Bob believes his customers appreciate his no-nonsense way of doing business and will also appreciate a no-nonsense kind of website.
+			Bob is the owner of a local stone working company.  His company's website hasn't been substantially updated in almost ten years.  Searching and ordering capabilities could open up new revenue streams for his business.  Bob has built his business from the ground up since the late 1970s and has amassed a large customer database.  SubG Stone has weekly specials on a variety of products.  Currently, customers cannot order stone from the SubG website; customers can fill out a contact form to request information.  Bob believes his customers appreciate his no-nonsense way of doing business and will also appreciate a no-nonsense kind of website.  Bob doesn't know much about coding but he knows a good website when he sees it.
 		</p>
 		<h3>Needs</h3>
 		<ul>
@@ -37,7 +37,7 @@
 		<br>
 		<h3>Frustrations</h3>
 		<p>
-			Because of Bob's concern about losing customers to the big box stores with strong SEO and modern sites he has been compelled to hire a web developer to update his site.  As owner of SubG Stone, Bob likes to be involved in the vetting of prospective employees.  The process is time consuming though so he has the IT manager sift through the applicant's technical qualifications and then send the best candidate's websites to Bob via email.  Bob doesn't know much about coding but he knows a good website when he sees it.  Bob is not inclined to spend a lot of time searching around a programmer's website to see if he will like their work.
+			Because of Bob's concern about losing customers to the big box stores with strong SEO and modern sites he has been compelled to hire a web developer to update his site.  As owner of SubG Stone, Bob likes to be involved in the vetting of prospective employees.  The process is time consuming though so he has the IT manager sift through the applicant's technical qualifications and then send the best candidate's websites to Bob via email.  Bob is not inclined to spend a lot of time searching around a programmer's website to see if he will like their work.
 		</p>
 
 		<h3>Ideal</h3>
