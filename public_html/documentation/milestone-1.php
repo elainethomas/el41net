@@ -56,11 +56,7 @@
 				<ul>
 					<li>Click through photos
 					<ul>
-						<li>Use nav bar to go to contacts
-							<ul>
-								<li>Contact me to discuss a new project</li>
-							</ul>
-						</li>
+						<li>Use links at bottom of page to contact me</li>
 					</ul>
 					</li>
 				</ul>
