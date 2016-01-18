@@ -42,25 +42,49 @@
 
 		<h3>Ideal</h3>
 		<ul>
+			<li>Bob wants to hire hard working candidates to keep his company robust.</li>
 			<li>Bob would like to see the applicant's work with no more than two clicks from the landing page.</li>
 			<li>If Bob likes what he sees he wants to find the applicant's contact information quickly.</li>
-			<li>Bob doesn't like overly fussy websites.</li>
-			<li>Bob wants the company website to be clear and to the point.</li>
+			<li>Bob likes clean concise websites.</li>
+			<li>Bob wants to hire a web developer that can make his website look clean and concise.</li>
 		</ul>
 		<hr>
 		<h3>Use Case</h3>
 		<h4>Basic Flow</h4>
 		<ul>
 			<li>Navigate to portfolio link
-				<ol>
-					<li>click through</li>
-					<li>use nav bar to got contacts</li>
-					<li>contact me to discuss a new project</li>
-				</ol>
+				<ul>
+					<li>Click through photos
+					<ul>
+						<li>Use nav bar to go to contacts
+							<ul>
+								<li>Contact me to discuss a new project</li>
+							</ul>
+						</li>
+					</ul>
+					</li>
+				</ul>
 			</li>
-			<li>stuff</li>
-			<li>stuff</li>
 		</ul>
+		<!--<h4>Alternate Flow 1</h4>
+		<ul>
+			<li>Read through qualifications
+				<ul>
+					<li>Use nav bar to
+						<ul>
+							<li>Use nav bar to go to contacts
+								<ul>
+									<li>Contact me to discuss a new project</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+		</ul>
+			<li>stuff</li>
+			<li>stuff</li>
+		</ul> -->
 	</body>
 </html>
 
