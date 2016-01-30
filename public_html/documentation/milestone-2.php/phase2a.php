@@ -23,7 +23,7 @@
 		</div>
 		<div>
 			<h3>Interaction Flow</h3>
-			<img src="interFlow.svg" width="200" height="600">
+			<img src="interFlow.svg" width="150" height="600">
 		</div>
 
 	</body>
