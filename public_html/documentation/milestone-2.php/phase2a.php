@@ -7,10 +7,10 @@
 	<body>
 		<h1>Phase2a Requirements</h1>
 		<div>
-			<h3>Mobile Device Wireframe</h3>
-			<img src="mobileWire.jpg" alt="mobile wireframe" width="700" height="500">
 			<h3>Desktop/Laptop Wireframe & Sitemap</h3>
 			<img src="desktopWire.jpg" alt="desktop wireframe" width="700" height="500">
+			<h3>Mobile Device Wireframe</h3>
+			<img src="mobileWire2.jpg" alt="mobile wireframe" width="700" height="500">
 		</div>
 		<div>
 		<h3>Content Strategy</h3>
