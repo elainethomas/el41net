@@ -1,15 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
-	<meta charset="utf-8" />
+<html>
+	<meta charset="8">
 	<head>
-		<title>Phase2a Requirements</title>
+		<title>Phase2a</title>
 	</head>
 	<body>
-		<h2>Site Map & Wireframes</h2>
-		<object>
-			<iframe src="desktopWireframe.txt" frameborder="0" height="400" width="95%">
+		<h1>Phase2a Requirements</h1>
+		<div>
+			<h3>Desktop/Laptop Wireframe & Sitemap</h3>
+			<img src="desktopWire.jpg"
+		</div>
+		<div>
+			<h3>Mobile Device Wireframe</h3>
+			<img src="mobileWire.jpg"
+		</div>
+		<div>
+		<h3>Content Strategy</h3>
+			<ul>
+				<li>Page 1.1 - Home - logo, greeting, banner describing site, includes nav to other pages, nice background photo</li>
+				<li>Page 1.2 - Portfolio - small logo, top title, link to GitHub, links to completed projects, nav to other pages</li>
+				<li>Page 1.3 - About Me - photo of me and things I like, brief profile, education, certs, nav to other pages</li>
+				<li>Page 1.4 - Contact - contact form, email link, Albuquerque, nav to other pages</li>
+			</ul>
+		</div>
+		<div>
+			<h3>Interaction Flow</h3>
+			<img src="interFlow.svg" width="400" height="300">
+		</div>
 
-			</iframe>
-		</object>
 	</body>
 </html>
