@@ -8,11 +8,11 @@
 		<h1>Phase2a Requirements</h1>
 		<div>
 			<h3>Desktop/Laptop Wireframe & Sitemap</h3>
-			<img src="desktopWire.jpg"
+			<img src="desktopWire.jpg" alt="desktop wireframe" width="700" height="500">
 		</div>
 		<div>
 			<h3>Mobile Device Wireframe</h3>
-			<img src="mobileWire.jpg"
+			<img src="mobileWire.jpg" alt="mobile wireframe" width="700" height="500">
 		</div>
 		<div>
 		<h3>Content Strategy</h3>
@@ -25,7 +25,7 @@
 		</div>
 		<div>
 			<h3>Interaction Flow</h3>
-			<img src="interFlow.svg" width="400" height="300">
+			<img src="interFlow.svg" width="800" height="600">
 		</div>
 
 	</body>
