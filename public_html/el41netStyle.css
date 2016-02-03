@@ -18,10 +18,10 @@ body { width: 100%;}
 }
 
 .content-box {
-	background-color: #f1b3ff;
-	margin-bottom:10px;
-	border-radius:6px;
+	background-color: #bbb;
+	border-radius: 6px;
 	padding: 10px;
+	margin-bottom: 10px;
 }
 
 img {
@@ -29,3 +29,21 @@ img {
 	height:45px;
 	margin:2px;
 }
+
+div[class*="col-"] {
+	background-color: pink;
+}
+
+footer {
+	background: black;
+	color: white;
+	padding: 20px 0;
+	margin-top: 40px;
+}
+
+header {
+	margin-top: 40px;
+}
+
+
+
