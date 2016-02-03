@@ -29,11 +29,12 @@
 		<!-- Latest compiled and minified Bootstrap JavaScript, all compiled plugins included -->
 		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-		<title>Sample Bootstrap Page</title>
+		<title>el41net</title>
 	</head>
 	<body class="classyBod">
-		<div ="content">
+		<div class="mainContent">
 			<header>
+				<div class="container">
 				<nav class="navbar navbar-default"> <!--use navbar-inverse for darker bg-->
 					<div class="container-fluid">
 						<!-- Brand and toggle get grouped for better mobile display -->
@@ -110,7 +111,6 @@
 							<div class="col-md-6">
 								here
 							</div>
-
 						</div>
 						<div class="row">
 							<div class="col-md-3">
