@@ -17,7 +17,7 @@ body { width: 100%;}
 	flex: 1 0 auto;
 }
 
-.content-box {
+.container{
 	background-color: #bbb;
 	border-radius: 6px;
 	padding: 10px;
