@@ -33,7 +33,7 @@
 	</head>
 	<body class="bodClass">
 		<div class="mainContent">
-			<header>
+			<header div class="page-header">
 				<div class="container">
 				<nav class="navbar navbar-default"> <!--use navbar-inverse for darker bg-->
 					<div class="container-fluid">
