@@ -34,6 +34,7 @@
 	<body class="bodClass">
 		<div class="mainContent">
 			<header div class="page-header">
+				MekaLeka
 				<div class="container">
 				<nav class="navbar navbar-default"> <!--use navbar-inverse for darker bg-->
 					<div class="container-fluid">
