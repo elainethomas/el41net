@@ -31,7 +31,7 @@
 
 		<title>el41net</title>
 	</head>
-	<body class="classyBod">
+	<body class="bodClass">
 		<div class="mainContent">
 			<header>
 				<div class="container">
@@ -89,8 +89,6 @@
 										<li><a href="#">Separated link</a></li>
 										-->
 							</ul>
-								</li>
-							</ul>
 						</div><!-- /.navbar-collapse -->
 					</div><!-- /.container-fluid -->
 				</nav>
@@ -130,8 +128,5 @@
 					</div>
 				</main>
 			</div>
-
-		</div>
-
 	</body>
 </html>

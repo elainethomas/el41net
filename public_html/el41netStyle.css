@@ -7,10 +7,15 @@
 html { display: flex;}
 body { width: 100%;}
 
-.classyBod {
+.bodClass {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
+	margin: 0;
+	background: url('moon.jpg');
+	background-size: 1440px 800px;
+	background-repeat:no-repeat;
+	/**display: compact;**/
 }
 
 .mainContent {
