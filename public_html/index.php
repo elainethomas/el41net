@@ -38,14 +38,14 @@
 		<title>el41net</title>
 	</head>
 	<body>
-		<div>
 			<header class="page-header">
-				<div class="container">
+
 					<nav class="navbar navbar-default"> <!--use navbar-inverse for darker bg-->
+
 						<div class="container-fluid">
 							<!-- Brand and toggle get grouped for better mobile display -->
 							<div class="navbar-header">
-								<h3>Quality you can see.</h3>
+								<h3></h3>
 								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
 										  data-target="#top-nav" aria-expanded="false">
 									<span class="sr-only">Toggle navigation</span>
@@ -57,7 +57,7 @@
 							<!-- Collect the nav links, forms, and other content for toggling -->
 							<div class="collapse navbar-collapse" id="top-nav">
 								<ul class="nav navbar-nav navbar-right">
-									<li><a href="#">Home<span class="sr-only">(current)</span></a></li>
+									<li><a href="#">Hello<span class="sr-only">(current)</span></a></li>
 									<li><a href="#">Portfolio</a></li>
 									<li><a href="#">About Me</a></li>
 									<li><a href="#">Let's Talk</a></li>
@@ -114,7 +114,7 @@
 								</div>
 
 								<div class="item">
-									<img src="images/siMonSiteLink.jpg" alt="Praeter Simon" width="460px" height="345px">
+									<img src="images/siMonSiteLink.jpg" alt="Praeter Simon">
 									<div class="carousel-caption">
 										<h3>SiMonZon Nemesis Homage</h3>
 										<a href="https://bootcamp-coders.cnm.edu/~enajera2/simonzon/">All Your Bases Belongs to SiMonZon</a>
@@ -134,7 +134,5 @@
 							</a>
 						</div>
 					</div>
-
-				</div>
 	</body>
 </html>
