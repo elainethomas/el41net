@@ -114,7 +114,7 @@
 								</div>
 
 								<div class="item">
-									<img src="images/siMonSiteLink.png" alt="Praeter Simon" width="460px" height="345px">
+									<img src="images/siMonSiteLink.jpg" alt="Praeter Simon" width="460px" height="345px">
 									<div class="carousel-caption">
 										<h3>SiMonZon Nemesis Homage</h3>
 										<a href="https://bootcamp-coders.cnm.edu/~enajera2/simonzon/">All Your Bases Belongs to SiMonZon</a>
