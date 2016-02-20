@@ -39,10 +39,10 @@
 	</head>
 	<body>
 		<header class="page-header">
-			<nav class="navbar navbar-inverse"> <!--use navbar-default for lighter bg-->
+			<nav class="navbar navbar-inverse" id="hello"> <!--use navbar-default for lighter bg-->
 				<!-- Brand and toggle get grouped for better mobile display -->
 				<div class="navbar-header">
-					<h2>&lt;!-- Infinite Possibilities --></h2>
+					<!--<h3>there used to be sumpin here</h3>  88 not sure if i want this here right now-->
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
 							  data-target="#top-nav" aria-expanded="false">
 						<span class="sr-only">Toggle navigation</span>
@@ -54,68 +54,111 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="top-nav">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#">Hello<span class="sr-only">(current)</span></a></li>
-						<li><a href="#">Portfolio</a></li>
-						<li><a href="#">About Me</a></li>
+						<li><a href="#hello">Hello<span class="sr-only">(current)</span></a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="#aboutMe">About Me</a></li>
 						<li><a href="#">Let's Talk</a></li>
 					</ul>
 				</div>
 			</nav>
 
 			<!--jumbotron-->
-			<div id="bg" class="container">
+			<div class="container">
+				<div class="bg"></div>
 				<div class="jumbotron">
+					<h1>&lt;!-- Infinite Possibilities --></h1>
 					<h2>Elaine Thomas</h2>
 					<h3>Web Developer</h3>
 					<p>design, code, implement, maintain</p>
 				</div>
 			</div>
 		</header>
-		<div class="container">
-		</div>
-
 		<main>
-
 			<div class="container">
 				<div class="row">
 					<div class="span4"></div>
-
 					<div class="span4"></div>
 				</div>
 			</div>
+
+			<!--this will be where I will have screen shots of my websites mapped to live sites and hover abilities.-->
+
+			<!-- Page Header -->
 			<div class="container">
-				<br>
-
-				<!--This is where the Carousel JS was-->
-				<div class="container">
-					<h1>Portfolio</h1>
-					<h3><a = href"https://github.com/ethomas12">Click here to get to my GitHub</a></h3>
-					<!--this will be where I will have screen shots of my websites mapped to live sites and hover abilities.-->
-					<!--row 1-->
-					<div class="row">
-						<div class="pull-right">
-							<img src="http://placehold.it/450x400" alt="screen shot of a website"><a href="#"></a></img>
-						</div>
-						<div class="pull-left">
-							<img src="http://placehold.it/450x400" alt="screen shot of a website"><a href="#"></a></img>
-						</div>
-					</div>
-					<br><br>
-
-					<!--row 2-->
-					<div class="row">
-						<div class="pull-right">
-							<img src="http://placehold.it/450x400" alt="screen shot of a website"><a href="#"></a></img>
-						</div>
-						<div class="pull-left">
-							<img src="http://placehold.it/450x400" alt="screen shot of a website"><a href="#"></a></img>
-						</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<h1 class="page-header"><span id="portfolio">Portfolio</span>
+							<small><a = href"https://github.com/ethomas12">My GitHub</h3></small>
+						</h1>
 					</div>
 				</div>
+				<!-- /.row -->
+
+				<!-- Projects Row -->
+				<div class="row">
+					<div class="col-md-6 portfolio-item">
+						<a href="#">
+							<img class="img-responsive" src="http://placehold.it/700x400" alt="">
+						</a>
+						<h3>
+							<a href="#">Project One</a>
+						</h3>
+						<p>Hey! I'm a porno-dealing monster, what do I care what you think? Why would I want to know that?
+							Oh sure! Blame the wizards! These old Doomsday Devices are dangerously unstable. This opera's as
+							lousy as it is brilliant! Your lyrics lack subtlety.
+						</p>
+					</div>
+					<div class="col-md-6 portfolio-item">
+						<a href="#">
+							<img class="img-responsive" src="http://placehold.it/700x400" alt="">
+						</a>
+						<h3>
+							<a href="#">Project Two</a>
+						</h3>
+						<p>Man, I'm sore all over. I feel like I just went ten rounds with mighty Thor. Are you crazy? I
+							can't swallow that. I'll rest easier not knowing where they are. And yet you haven't said what I
+							told you to say! How can any of us trust you?</p>
+					</div>
+				</div>
+				<!-- /.row -->
+
+				<!-- Projects Row -->
+				<div class="row">
+					<div class="col-md-6 portfolio-item">
+						<a href="#">
+							<img class="img-responsive" src="http://placehold.it/700x400" alt="">
+						</a>
+						<h3>
+							<a href="#">Project Three</a>
+						</h3>
+						<p>Morbo will now introduce tonight's candidates… PUNY HUMAN NUMBER ONE, PUNY HUMAN NUMBER TWO, and
+							Morbo's good friend, Bernie Sanders. You, a bobsledder!? We'll go deliver this crate like
+							professionals, and then we'll go home.</p>
+					</div>
+					<div class="col-md-6 portfolio-item">
+						<a href="#">
+							<img class="img-responsive" src="http://placehold.it/700x400" alt="">
+						</a>
+						<h3>
+							<a href="#">Project Four</a>
+						</h3>
+						<p>Perhaps, but perhaps your civilization is merely the sewer of an even greater society above you!
+							Ooh, name it after me! I'm Santa Claus! I love this planet! I've got wealth, fame, and access to
+							the depths of sleaze that those things bring. It's toe-tappingly tragic! </p>
+					</div>
+				</div>
+			</div>
+			<!-- /.row -->
+
+			<!--About Me-->
+			<hr>
+			<div class="container">
+
+
+
+			</div>
+
 	</body>
-</html>
-</div>
-</body>
 </html>
 
 <!--placehold it
