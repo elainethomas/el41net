@@ -57,7 +57,7 @@
 						<li><a href="#hello">Hello<span class="sr-only">(current)</span></a></li>
 						<li><a href="#portfolio">Portfolio</a></li>
 						<li><a href="#aboutMe">About Me</a></li>
-						<li><a href="#">Let's Talk</a></li>
+						<li><a href="#contact">Let's Talk</a></li>
 					</ul>
 				</div>
 			</nav>
@@ -81,7 +81,7 @@
 				</div>
 			</div>
 
-			<!--this will be where I will have screen shots of my websites mapped to live sites and hover abilities.-->
+			<!--Portfolio - where I'll have screen shots of my websites mapped to live sites and has hover abilities.-->
 
 			<!-- Page Header -->
 			<div class="container">
@@ -151,12 +151,152 @@
 			<!-- /.row -->
 
 			<!--About Me-->
+			<br>
 			<hr>
-			<div class="container">
 
+			<br>
+			<!--TODO: add simple box to talk about who I am-->
 
-
+			<div class="container" id="aboutMe">
+				<img class="img-responsive" src="http://placehold.it/150x200" alt="me">
+				<h2>About Me</h2>
+				<h4>Have secret plans</h4>
+				<p>
+					Cat is love, cat is life pooping rainbow while flying in a toasted bread costume in space lick the
+					plastic bag. Kick up litter stares at human while pushing stuff off a table, claws in your leg. Rub face
+					on everything lick arm hair put toy mouse in food bowl run out of litter box at full speed walk on car
+					leaving trail of paw prints on hood and windshield. Throwup on your pillow sleep on keyboard get video
+					posted to internet for chasing red dot yet sun bathe. Leave fur on owners clothes see owner, run in
+					terror and sit in box for attack dog, run away and pretend to be victim, but roll on the floor purring
+					your whiskers off yet fall over dead (not really but gets sypathy). Chirp at birds chew on cable for my
+					left donut is missing, as is my right yet poop on grasses meow for food, then when human fills food dish,
+					take a few bites of food and continue meowing immediately regret falling into bathtub for howl
+					uncontrollably for no reason. Stare at the wall, play with food and get confused by dust. Damn that dog
+					scratch leg; meow for can opener to feed me meow.
+				</p>
+				<p>
+					Chase ball of string loves cheeseburgers and cat slap
+					dog in face or climb a tree, wait for a fireman jump to fireman then scratch his face lick butt and make
+					a weird face, or where is my slave? I'm getting hungry so steal the warm chair right after you get up.
+					Wake up human for food at 4am chase mice present belly, scratch hand when stroked. Favor packaging over
+					toy shake treat bag sweet beast, or leave dead animals as gifts. Chew iPad power cord play riveting piece
+					on synthesizer keyboard yet when in doubt, wash stare at ceiling light yet refuse to drink water except
+					out of someone's glass scratch the furniture. Scream at teh bath poop in litter box, scratch the walls,
+					pooping rainbow while flying in a toasted bread costume in space for kitty loves pigs for chirp at birds.
+					Swat turds around the house kitty power! and please stop looking at your phone and pet me sleep nap so
+					lounge in doorway yet vommit food and eat it again. I like big cats and i can not lie. Chase imaginary
+					bugs thug cat need to chase tail, for touch water with paw then recoil in horror knock over christmas
+					tree. Attack the dog then pretend like nothing happened give attitude, yet scamper yet eat a plant, kill
+					a hand intently sniff hand. Chase after silly colored fish toys around the house damn that dog or brown
+					cats with pink ears for put toy mouse in food bowl run out of litter box at full speed , leave dead
+					animals as gifts lounge in doorway.
+				</p>
+				<p>My Tech Toolbox:</p>
+				<div class="progress">
+					<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+						  aria-valuemax="100" style="width:40%">
+						mySQL
+					</div>
+				</div>
+				<div class="progress">
+					<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+						  aria-valuemax="100" style="width:50%">
+						PHP
+					</div>
+				</div>
+				<div class="progress">
+					<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+						  aria-valuemax="100" style="width:60%">
+						CSS
+					</div>
+				</div>
+				<div class="progress">
+					<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+						  aria-valuemax="100" style="width:70%">
+						HTML
+					</div>
+					<br>
+					<br>
+				</div>
 			</div>
+
+
+			<br>
+
+			<!--TODO: add the rest of the contact content			-->
+
+			<h2 id="contact">Let's Talk</h2>
+			<!--contact form template-->
+			<!-- The div class="form-wrap" is the black box containing the form. It's set to a column width of 12 for small screens, and a column width of 6 for medium screens on up -->
+			<div class="col-xs-12 col-md-7 form-wrap">
+				<!-- Form is centered within it's container, and is set to 10 be columns wide RELATIVE TO IT'S CONTAINER, and offset to the right by one column. See classes: col-xs-offset-1 & col-xs-10 -->
+				<form method="get" action="#" id="sample-form" class="form-horizontal col-xs-10 col-xs-offset-1">
+
+					<div class="form-group">
+						<!-- Labels for each field are places within a <label> tag. Use the "for" attribute. the class="control-label" is for styling. -->
+						<label for="inputName1" class="control-label">Name</label>
+						<!-- the div class="input-group" contains both the text field and the icon to the left -->
+						<div class="input-group">
+							<!-- this div and span contains the glyphicon to the left. aria-hidden is so that screen readers don't read this element -->
+							<div class="input-group-addon">
+								<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+							</div>
+							<!-- text field input. pay attention to the id, placeholder text, type, and placeholder attributes -->
+							<input type="text" class="form-control" id="textName1" placeholder="Your name here."
+									 maxlength="150"/>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label for="email1" class="control-label">Email</label>
+						<div class="input-group">
+							<div class="input-group-addon">
+								<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+							</div>
+							<input type="email" id="email1" class="form-control" maxlength="150"
+									 placeholder="your.email@something.com"/>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label class="control-label">I am interested in:</label>
+						<!-- use div class="help-block" to explain the form content -->
+						<div class="help-block">Please check all that apply.</div>
+						<div class="checkbox">
+							<label class="checkbox">
+								<!-- name value contains square brackets which makes it easy to create an array on the back end in php -->
+								<input id="chkFavoritesKittens" name="chkFavorites[]" type="checkbox" value="Kittens"/>Web
+								Development
+							</label>
+							<label class="checkbox">
+								<input id="chkFavoritesPuppies" name="chkFavorites[]" type="checkbox" value="Puppies"/>Database
+							</label>
+							<label class="checkbox">
+								<input id="chkFavoritesRainbows" name="chkFavorites[]" type="checkbox" value="Rainbows"/>Kitties
+							</label>
+							<label class="checkbox">
+								<input id="chkFavoritesUnicorns" name="chkFavorites[]" type="checkbox" value="Unicorns"/>Puppies
+							</label>
+							<label class="checkbox">
+								<input id="chkFavoritesCthulhu" name="chkFavorites[]" type="checkbox" value="Cthulhu"/>Cthulhu
+							</label>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label class="control-label" for="txtareaComments">Tell Us More About Yourself:</label>
+						<textarea class="form-control" rows="5" id="txtareaComments" maxlength="500"
+									 placeholder="500 characters max."></textarea>
+					</div>
+
+					<div class="form-group">
+						<!-- the following <a> tag has been styled as a button with class="btn" -->
+						<a id="reset-form" class="btn" role="button">Reset Form</a>
+						<button type="submit" class="btn">Submit</button>
+					</div>
+				</form>
+			</div>
+			<!-- CLOSE FORM WRAP -->
 
 	</body>
 </html>

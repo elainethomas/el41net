@@ -39,3 +39,104 @@ nav {
 /*#portfolio {*/
 
 /*}*/
+
+/********************************************
+* Primary Page Styles
+********************************************/
+.form-wrap {
+	background-color: #312f30;
+	margin: 0 0 50px 0;
+	padding: 20px 0 0 0;
+}
+
+/********************************************
+* Form Styles
+********************************************/
+form#sample-form {
+	/*color: #1295FF;*/
+	color: #fff;
+}
+
+#sample-form .form-group {
+	border-bottom: 1px solid #312f30;
+	padding-bottom: 25px;
+}
+
+#sample-form .form-group:last-child {
+	border: none;
+	margin-top: 20px;
+}
+
+#sample-form label {
+	font-weight: 400;
+}
+
+#sample-form .control-label {
+	font-family: "Roboto", sans-serif;
+	font-size: 1.4em;
+	font-weight: 300;
+	padding-bottom: 4px;
+	text-align: left !important;
+	color: #cb7832
+}
+
+#sample-form .input-group-addon {
+	border-radius: 0 !important;
+	background: none;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+#sample-form .help-block {
+	color: #ddd;
+	font-size: 0.85em;
+	margin-top: 0;
+}
+
+/********************************************
+* Input Field Styles
+********************************************/
+#sample-form .btn {
+	background: none;
+	border-color: #fff;
+	border-radius: 0;
+	box-shadow: none;
+	color: #fff;
+	text-shadow: none;
+	transition: all 250ms ease;
+	-moz-transition: all 250ms ease;
+	-ms-transition: all 250ms ease;
+	-o-transition: all 250ms ease;
+	-webkit-transition: all 250ms ease;
+}
+
+#sample-form .btn:hover,
+#sample-form .btn:focus {
+	background: #fff;
+	border-color: #ccc;
+	box-shadow: none;
+	color: #000;
+}
+
+#sample-form input.form-control,
+#sample-form textarea.form-control,
+#sample-form select.form-control {
+	background: none;
+	border: 1px solid #fff;
+	border-radius: 0;
+	color: #fff;
+}
+
+#sample-form option {
+	color: #000;
+	background-color: #fff;
+	padding: 5px;
+}
+
+#sample-form .no-option {
+	background: #dddddd;
+}
+
+/* End of form styles*/
+
+/*Bar Chart styles*/
