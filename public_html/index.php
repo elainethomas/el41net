@@ -284,7 +284,7 @@
 					</div>
 
 					<div class="form-group">
-						<label class="control-label" for="txtareaComments">Tell Us More About Yourself:</label>
+						<label class="control-label" for="txtareaComments">Have More to Say?</label>
 						<textarea class="form-control" rows="5" id="txtareaComments" maxlength="500"
 									 placeholder="500 characters max."></textarea>
 					</div>
