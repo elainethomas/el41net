@@ -39,7 +39,7 @@
 	</head>
 	<body>
 		<header class="page-header">
-			<nav class="navbar navbar-inverse" id="hello"> <!--use navbar-default for lighter bg-->
+			<nav class="navbar navbar-inverse navbar-fixed-top" id="hello"> <!--use navbar-default for lighter bg-->
 				<!-- Brand and toggle get grouped for better mobile display -->
 				<div class="navbar-header">
 					<!--<h3>there used to be sumpin here</h3>  88 not sure if i want this here right now-->
