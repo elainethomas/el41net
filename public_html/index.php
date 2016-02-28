@@ -66,10 +66,10 @@
 			<div class="container">
 				<div class="bg"></div>
 				<div class="jumbotron">
-					<h1>&lt;!-- Infinite Possibilities --></h1>
-					<h2>Elaine Thomas</h2>
-					<h3>Web Developer</h3>
-					<p>design, code, implement, maintain</p>
+					<h1 class="jtron-h1">&lt;!-- Infinite Possibilities --></h1>
+					<h2 class="jtron-h2">Elaine Thomas</h2>
+					<h3 class="jtron-h2">Web Developer</h3>
+					<p class="jtron-h3">design, code, implement, maintain</p>
 				</div>
 			</div>
 		</header>
@@ -92,7 +92,7 @@
 						</h1>
 					</div>
 				</div>
-				<!-- /.row -->
+				<!-- /row -->
 
 				<!-- Projects Row -->
 				<div class="row">
