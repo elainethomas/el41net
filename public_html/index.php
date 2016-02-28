@@ -66,7 +66,7 @@
 			<div class="container">
 				<div class="bg"></div>
 				<div class="jumbotron">
-					<h1 class="jtron-h1">&lt;!-- Infinite Possibilities --></h1>
+					<h1><span class="jtron-h1">&lt;!-- Infinite Possibilities --></span></h1>
 					<h2 class="jtron-h2">Elaine Thomas</h2>
 					<h3 class="jtron-h2">Web Developer</h3>
 					<p class="jtron-h3">design, code, implement, maintain</p>
@@ -88,7 +88,7 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<h1 class="page-header"><span id="portfolio">Portfolio</span>
-							<small><a = href"https://github.com/ethomas12">My GitHub</h3></small>
+							<small><a href="https://github.com/ethomas12">My GitHub<img src="images/gitButn.png" alt="octoCat" id="lilKitty"> </small>
 						</h1>
 					</div>
 				</div>
@@ -158,31 +158,18 @@
 			<!--TODO: add simple box to talk about who I am-->
 
 			<div class="container" id="aboutMe">
-				<img class="img-responsive" src="http://placehold.it/150x200" alt="me">
-				<h2>About Me</h2>
-				<h4>Have secret plans</h4>
+				<h1 class="jtron-h1">About Me</h1>
+				<img src="images/profile.jpg" id="profilePhoto" class="pull-right" alt="me">
+				<h3 class="jtron-h3">Have secret plans</h3>
 				<p>
 					Cat is love, cat is life pooping rainbow while flying in a toasted bread costume in space lick the
 					plastic bag. Kick up litter stares at human while pushing stuff off a table, claws in your leg. Rub face
 					on everything lick arm hair put toy mouse in food bowl run out of litter box at full speed walk on car
 					leaving trail of paw prints on hood and windshield. Throwup on your pillow sleep on keyboard get video
 					posted to internet for chasing red dot yet sun bathe. Leave fur on owners clothes see owner, run in
-					terror and sit in box for attack dog, run away and pretend to be victim, but roll on the floor purring
-					your whiskers off yet fall over dead (not really but gets sypathy). Chirp at birds chew on cable for my
-					left donut is missing, as is my right yet poop on grasses meow for food, then when human fills food dish,
-					take a few bites of food and continue meowing immediately regret falling into bathtub for howl
-					uncontrollably for no reason. Stare at the wall, play with food and get confused by dust. Damn that dog
-					scratch leg; meow for can opener to feed me meow.
+
 				</p>
 				<p>
-					Chase ball of string loves cheeseburgers and cat slap
-					dog in face or climb a tree, wait for a fireman jump to fireman then scratch his face lick butt and make
-					a weird face, or where is my slave? I'm getting hungry so steal the warm chair right after you get up.
-					Wake up human for food at 4am chase mice present belly, scratch hand when stroked. Favor packaging over
-					toy shake treat bag sweet beast, or leave dead animals as gifts. Chew iPad power cord play riveting piece
-					on synthesizer keyboard yet when in doubt, wash stare at ceiling light yet refuse to drink water except
-					out of someone's glass scratch the furniture. Scream at teh bath poop in litter box, scratch the walls,
-					pooping rainbow while flying in a toasted bread costume in space for kitty loves pigs for chirp at birds.
 					Swat turds around the house kitty power! and please stop looking at your phone and pet me sleep nap so
 					lounge in doorway yet vommit food and eat it again. I like big cats and i can not lie. Chase imaginary
 					bugs thug cat need to chase tail, for touch water with paw then recoil in horror knock over christmas
@@ -191,34 +178,44 @@
 					cats with pink ears for put toy mouse in food bowl run out of litter box at full speed , leave dead
 					animals as gifts lounge in doorway.
 				</p>
-				<p>My Tech Toolbox:</p>
-				<div class="progress">
-					<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0"
-						  aria-valuemax="100" style="width:40%">
-						mySQL
-					</div>
-				</div>
-				<div class="progress">
-					<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50" aria-valuemin="0"
-						  aria-valuemax="100" style="width:50%">
-						PHP
-					</div>
-				</div>
-				<div class="progress">
-					<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0"
-						  aria-valuemax="100" style="width:60%">
-						CSS
-					</div>
-				</div>
-				<div class="progress">
-					<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0"
-						  aria-valuemax="100" style="width:70%">
-						HTML
-					</div>
-					<br>
-					<br>
-				</div>
+				<br>
+				<br>
 			</div>
+			<!--tech toolbox progress bar-->
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+					<h2 class="jtron-h2">My Tech Toolbox:</h2>
+					<div class="progress">
+						<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+							  aria-valuemax="100" style="width:40%">
+							mySQL
+						</div>
+					</div>
+					<div class="progress">
+						<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+							  aria-valuemax="100" style="width:40%">
+							PHP
+						</div>
+					</div>
+					<div class="progress">
+						<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+							  aria-valuemax="100" style="width:60%">
+							CSS
+						</div>
+					</div>
+					<div class="progress">
+						<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+							  aria-valuemax="100" style="width:60%">
+							HTML
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6"></div>
+			</div>
+			</div>
+			<br>
+			<br>
 
 
 			<br>
