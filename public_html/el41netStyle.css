@@ -15,7 +15,7 @@ body {
 }
 
 .bg, .jumbotron {
-	height: 750px; /*bg of jumbotron needs to be same height as jumbotron */
+	height: 850px; /*bg of jumbotron needs to be same height as jumbotron */
 }
 
 /*this formats the background image on the header*/
@@ -39,7 +39,7 @@ body {
 	color: #e7be6a;
 }
 
-.jtron-h2, #portfolio {
+.jtron-h2, #folio {
 	color: #cb7832;
 }
 

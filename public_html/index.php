@@ -63,7 +63,7 @@
 			</nav>
 
 			<!--jumbotron-->
-			<div class="container">
+			<div class="container" id="hello">
 				<div class="bg"></div>
 				<div class="jumbotron">
 					<h1><span class="jtron-h1">&lt;!-- Infinite Possibilities --></span></h1>
@@ -72,14 +72,12 @@
 					<p class="jtron-h3">design, code, implement, maintain</p>
 				</div>
 			</div>
+			<br>
+			<br>
 		</header>
 		<main>
-			<div class="container">
-				<div class="row">
-					<div class="span4"></div>
-					<div class="span4"></div>
-				</div>
-			</div>
+			<br id="portfolio">
+			<br>
 
 			<!--Portfolio - where I'll have screen shots of my websites mapped to live sites and has hover abilities.-->
 
@@ -87,8 +85,9 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
-						<h1 class="page-header"><span id="portfolio">Portfolio</span>
-							<small><a href="https://github.com/ethomas12">My GitHub<img src="images/gitButn.png" alt="octoCat" id="lilKitty"> </small>
+						<h1 class="page-header"><span id="folio">Portfolio</span>
+							<small><a href="https://github.com/ethomas12">My GitHub<img src="images/gitButn.png" alt="octoCat"
+																											id="lilKitty"></small>
 						</h1>
 					</div>
 				</div>
@@ -152,8 +151,8 @@
 
 			<!--About Me-->
 			<br>
+			<br>
 			<hr>
-
 			<br>
 			<!--TODO: add simple box to talk about who I am-->
 
@@ -185,34 +184,37 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
-					<h2 class="jtron-h2">My Tech Toolbox:</h2>
-					<div class="progress">
-						<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0"
-							  aria-valuemax="100" style="width:40%">
-							mySQL
+						<h2 class="jtron-h2">My Tech Toolbox:</h2>
+						<div class="progress">
+							<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+								  aria-valuemin="0"
+								  aria-valuemax="100" style="width:40%">
+								mySQL
+							</div>
+						</div>
+						<div class="progress">
+							<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+								  aria-valuemax="100" style="width:40%">
+								PHP
+							</div>
+						</div>
+						<div class="progress">
+							<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60"
+								  aria-valuemin="0"
+								  aria-valuemax="100" style="width:60%">
+								CSS
+							</div>
+						</div>
+						<div class="progress">
+							<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60"
+								  aria-valuemin="0"
+								  aria-valuemax="100" style="width:60%">
+								HTML
+							</div>
 						</div>
 					</div>
-					<div class="progress">
-						<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40" aria-valuemin="0"
-							  aria-valuemax="100" style="width:40%">
-							PHP
-						</div>
-					</div>
-					<div class="progress">
-						<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0"
-							  aria-valuemax="100" style="width:60%">
-							CSS
-						</div>
-					</div>
-					<div class="progress">
-						<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0"
-							  aria-valuemax="100" style="width:60%">
-							HTML
-						</div>
-					</div>
+					<div class="col-md-6"></div>
 				</div>
-				<div class="col-md-6"></div>
-			</div>
 			</div>
 			<br>
 			<br>
