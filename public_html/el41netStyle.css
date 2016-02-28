@@ -52,12 +52,12 @@ color: #a4c161;
 }
 
 .myImages {
-	width: 180px;
-	height: 250px;
+	width: 175px;
+	height: 200px;
 	padding: 1px;
-	border-radius: 20%;
+	border-radius: 5%;
 	border: groove 2px white;
-	margin: 8px;
+	margin: 25px 0;
 
 }
 

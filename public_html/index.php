@@ -63,7 +63,8 @@
 			</nav>
 
 			<!--jumbotron-->
-			<div class="container" id="hello">
+			<div id="hello"></div>
+			<div class="container">
 				<div class="bg"></div>
 				<div class="jumbotron">
 					<h1><span class="jtron-h1">&lt;!-- Infinite Possibilities --></span></h1>
@@ -76,7 +77,7 @@
 		</header>
 		<main>
 			<br id="portfolio">
-			<br>
+
 
 			<!--Portfolio - where I'll have screen shots of my websites mapped to live sites and has hover abilities.-->
 			<!-- Page Header -->
@@ -92,6 +93,49 @@
 					</div>
 				</div>
 				<!-- /row -->
+
+				<!--tech toolbox progress bar-->
+				<div class="container">
+					<div class="row">
+						<div class="col-md-2"></div>
+						<div class="col-md-8">
+							<h3 class="jtron-h3">My Tech Toolbox:</h3>
+							<div class="progress">
+								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+									  aria-valuemin="0"
+									  aria-valuemax="100" style="width:40%">
+									mySQL
+								</div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40"
+									  aria-valuemin="0"
+									  aria-valuemax="100" style="width:40%">
+									PHP
+								</div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60"
+									  aria-valuemin="0"
+									  aria-valuemax="100" style="width:60%">
+									CSS
+								</div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60"
+									  aria-valuemin="0"
+									  aria-valuemax="100" style="width:60%">
+									HTML
+								</div>
+							</div>
+						</div>
+						<div class="col-md-2"></div>
+					</div>
+				</div>
+				<br>
+				<br>
+				<br>
+				<!--end of tool box-->
 
 				<!-- Projects Row 1-->
 				<div class="row">
@@ -158,84 +202,45 @@
 			<br>
 			<div class="container">
 				<h1 class="jtron-h2">About Me</h1>
-<!--				<h3 class="jtron-h3">Have secret plans</h3>-->
+				<h3 class="jtron-h3">I'm Elaine Thomas, I'm a Freelance Web Developer and..</h3>
 			</div>
-
-			<!--tech toolbox progress bar-->
 			<div class="container">
 				<div class="row">
-					<div class="col-md-3"></div>
-					<div class="col-md-6">
-						<h2 class="jtron-h2">My Tech Toolbox:</h2>
-						<div class="progress">
-							<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
-								  aria-valuemin="0"
-								  aria-valuemax="100" style="width:40%">
-								mySQL
-							</div>
-						</div>
-						<div class="progress">
-							<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40" aria-valuemin="0"
-								  aria-valuemax="100" style="width:40%">
-								PHP
-							</div>
-						</div>
-						<div class="progress">
-							<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60"
-								  aria-valuemin="0"
-								  aria-valuemax="100" style="width:60%">
-								CSS
-							</div>
-						</div>
-						<div class="progress">
-							<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60"
-								  aria-valuemin="0"
-								  aria-valuemax="100" style="width:60%">
-								HTML
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3"></div>
-				</div>
-			</div>
-
-			<div class="container">
-				<div class="row">
-<!--					<div class="col-md-1"></div>-->
-<!--column 1-->
+					<!--column 1-->
 					<div class="col-md-3">
+						<img src="images/telecom.jpg" alt="me last day old job" class="myImages">
+						<h4 class="jtron-h4">Solid Work History</h4>
 						<p>
-							Cat is love, cat is life pooping rainbow while flying in a toasted bread costume in space lick the
-							plastic bag. Kick up litter stares at human while pushing stuff off a table, claws in your leg. Rub
-							face on everything lick arm hair put toy mouse in food bowl run out of litter box at full speed
+							Working in the telecom industry gave me a chance to learn snippets of proprietary programming languages but I yearned to learn more than online courses could teach me. I decided to make a career change and returned to school to learn web
+							development.
 						</p>
-						<img src="images/profile.jpg" alt="me last day old job" class="myImages">
 					</div>
-						<div class="col-md-1"></div>
 
 					<!--column 2-->
 					<div class="col-md-3">
-						<img src="images/dance.jpg" alt="me at So Ya Think You Can Dance" class="myImages">
+						<img src="images/kittyPueblo.jpg" alt="Kitty Pueblo" class="myImages">
+						<h4 class="jtron-h4">Making Stuff</h4>
 						<p>
-							walk on car leaving trail of paw prints on hood and windshield. Throwup on your pillow sleep on
-							keyboard get
-							video posted to internet for chasing red dot yet sun bathe. Leave fur on owners clothes see owner,
-							run in
+							I enjoy the process of creation.  Whether it's the art of baking a lovely loaf of bread or the technical specifications necessary to produce a papier-mâché pueblo for cats there is always learning involved and joy in results.
+
 						</p>
 					</div>
-							<div class="col-md-1"></div>
 
 					<!--column 3-->
 					<div class="col-md-3">
-						<img src="images/kittyPueblo.jpg" alt="Kitty Pueblo" class="myImages">
+						<img src="images/dance.jpg" alt="me at So Ya Think You Can Dance" class="myImages">
+						<h4 class="jtron-h4">I <span class="glyphicon glyphicon-heart-empty"></span> to Dance</h4>
 						<p>
-							kitty power! Attack the dog then pretend like nothing happened give attitude, yet scamper yet eat a
-							plant,
-							kill a hand intently sniff hand. Chase after silly colored fish toys around the house damn that dog
-							or
-							brown cats with pink ears for put toy mouse in food bowl run out of litter box at full speed ,
-							leave dead
-							animals as gifts lounge in doorway.
+							“‎Dancing is not just getting up painlessly, like a leaf blown on the wind; dancing is when you tear your heart out and rise out of your body to hang suspended between the worlds.”  ~Rumi
+						</p>
+					</div>
+
+					<!--column 4-->
+					<div class="col-md-3">
+						<img src="images/gaming.jpg" alt="game group" class="myImages">
+						<h4 class="jtron-h4">Gaming</h4>
+						<p>
+							Cooperative gaming is my favorite game style.  I relish gaming in several forms - online (most recently Destiny), tabletop (Ascension, Magic The Gathering, Fluxx), and pen & paper role playing games (Pathfinder).   By no means is this all of the games I enjoy.  I like to learn new games too.
 						</p>
 					</div>
 				</div>
