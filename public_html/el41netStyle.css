@@ -44,16 +44,20 @@ body {
 }
 
 .jtron-h3 {
+color: #a4c161;
+}
+
+.jtron-h4 {
 	color: #9776a9;
 }
 
-#profilePhoto {
-	width: 170px;
+.myImages {
+	width: 180px;
 	height: 250px;
 	padding: 1px;
 	border-radius: 20%;
 	border: groove 2px white;
-	margin-left: 8px;
+	margin: 8px;
 
 }
 

@@ -68,11 +68,10 @@
 				<div class="jumbotron">
 					<h1><span class="jtron-h1">&lt;!-- Infinite Possibilities --></span></h1>
 					<h2 class="jtron-h2">Elaine Thomas</h2>
-					<h3 class="jtron-h2">Web Developer</h3>
-					<p class="jtron-h3">design, code, implement, maintain</p>
+					<h3 class="jtron-h3">Web Developer</h3>
+					<p class="jtron-h4">design, code, implement, maintain</p>
 				</div>
 			</div>
-			<br>
 			<br>
 		</header>
 		<main>
@@ -80,20 +79,21 @@
 			<br>
 
 			<!--Portfolio - where I'll have screen shots of my websites mapped to live sites and has hover abilities.-->
-
 			<!-- Page Header -->
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
-						<h1 class="page-header"><span id="folio">Portfolio</span>
-							<small><a href="https://github.com/ethomas12">My GitHub<img src="images/gitButn.png" alt="octoCat"
-																											id="lilKitty"></small>
+						<h1 class="page-header"><span class="jtron-h2">Portfolio</span><br>
+							<small><a href="https://github.com/ethomas12">
+									<span class="jtron-h3">My GitHub</span><img src="images/gitButn.png" alt="octoCat"
+																							  id="lilKitty">
+							</small>
 						</h1>
 					</div>
 				</div>
 				<!-- /row -->
 
-				<!-- Projects Row -->
+				<!-- Projects Row 1-->
 				<div class="row">
 					<div class="col-md-6 portfolio-item">
 						<a href="#">
@@ -121,7 +121,7 @@
 				</div>
 				<!-- /.row -->
 
-				<!-- Projects Row -->
+				<!-- Projects Row 2-->
 				<div class="row">
 					<div class="col-md-6 portfolio-item">
 						<a href="#">
@@ -147,42 +147,24 @@
 					</div>
 				</div>
 			</div>
-			<!-- /.row -->
-
-			<!--About Me-->
 			<br>
 			<br>
 			<hr>
+			<!-- /.row -->
+
+			<!--About Me-->
+
+			<br id="aboutMe">
 			<br>
-			<!--TODO: add simple box to talk about who I am-->
-
-			<div class="container" id="aboutMe">
-				<h1 class="jtron-h1">About Me</h1>
-				<img src="images/profile.jpg" id="profilePhoto" class="pull-right" alt="me">
-				<h3 class="jtron-h3">Have secret plans</h3>
-				<p>
-					Cat is love, cat is life pooping rainbow while flying in a toasted bread costume in space lick the
-					plastic bag. Kick up litter stares at human while pushing stuff off a table, claws in your leg. Rub face
-					on everything lick arm hair put toy mouse in food bowl run out of litter box at full speed walk on car
-					leaving trail of paw prints on hood and windshield. Throwup on your pillow sleep on keyboard get video
-					posted to internet for chasing red dot yet sun bathe. Leave fur on owners clothes see owner, run in
-
-				</p>
-				<p>
-					Swat turds around the house kitty power! and please stop looking at your phone and pet me sleep nap so
-					lounge in doorway yet vommit food and eat it again. I like big cats and i can not lie. Chase imaginary
-					bugs thug cat need to chase tail, for touch water with paw then recoil in horror knock over christmas
-					tree. Attack the dog then pretend like nothing happened give attitude, yet scamper yet eat a plant, kill
-					a hand intently sniff hand. Chase after silly colored fish toys around the house damn that dog or brown
-					cats with pink ears for put toy mouse in food bowl run out of litter box at full speed , leave dead
-					animals as gifts lounge in doorway.
-				</p>
-				<br>
-				<br>
+			<div class="container">
+				<h1 class="jtron-h2">About Me</h1>
+<!--				<h3 class="jtron-h3">Have secret plans</h3>-->
 			</div>
+
 			<!--tech toolbox progress bar-->
 			<div class="container">
 				<div class="row">
+					<div class="col-md-3"></div>
 					<div class="col-md-6">
 						<h2 class="jtron-h2">My Tech Toolbox:</h2>
 						<div class="progress">
@@ -213,93 +195,133 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6"></div>
+					<div class="col-md-3"></div>
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="row">
+<!--					<div class="col-md-1"></div>-->
+<!--column 1-->
+					<div class="col-md-3">
+						<p>
+							Cat is love, cat is life pooping rainbow while flying in a toasted bread costume in space lick the
+							plastic bag. Kick up litter stares at human while pushing stuff off a table, claws in your leg. Rub
+							face on everything lick arm hair put toy mouse in food bowl run out of litter box at full speed
+						</p>
+						<img src="images/profile.jpg" alt="me last day old job" class="myImages">
+					</div>
+						<div class="col-md-1"></div>
+
+					<!--column 2-->
+					<div class="col-md-3">
+						<img src="images/dance.jpg" alt="me at So Ya Think You Can Dance" class="myImages">
+						<p>
+							walk on car leaving trail of paw prints on hood and windshield. Throwup on your pillow sleep on
+							keyboard get
+							video posted to internet for chasing red dot yet sun bathe. Leave fur on owners clothes see owner,
+							run in
+						</p>
+					</div>
+							<div class="col-md-1"></div>
+
+					<!--column 3-->
+					<div class="col-md-3">
+						<img src="images/kittyPueblo.jpg" alt="Kitty Pueblo" class="myImages">
+						<p>
+							kitty power! Attack the dog then pretend like nothing happened give attitude, yet scamper yet eat a
+							plant,
+							kill a hand intently sniff hand. Chase after silly colored fish toys around the house damn that dog
+							or
+							brown cats with pink ears for put toy mouse in food bowl run out of litter box at full speed ,
+							leave dead
+							animals as gifts lounge in doorway.
+						</p>
+					</div>
 				</div>
 			</div>
 			<br>
 			<br>
-
-
 			<br>
+			<br>
+			<br>
+			<hr>
 
 			<!--TODO: add the rest of the contact content			-->
 
 			<h2 id="contact">Let's Talk</h2>
 			<!--contact form template-->
 			<!-- The div class="form-wrap" is the black box containing the form. It's set to a column width of 12 for small screens, and a column width of 6 for medium screens on up -->
-			<div class="col-xs-12 col-md-7 form-wrap">
-				<!-- Form is centered within it's container, and is set to 10 be columns wide RELATIVE TO IT'S CONTAINER, and offset to the right by one column. See classes: col-xs-offset-1 & col-xs-10 -->
-				<form method="get" action="#" id="sample-form" class="form-horizontal col-xs-10 col-xs-offset-1">
+			<div class="container">
+				<div class="col-xs-12 col-md-7 form-wrap">
+					<!-- Form is centered within it's container, and is set to 10 be columns wide RELATIVE TO IT'S CONTAINER, and offset to the right by one column. See classes: col-xs-offset-1 & col-xs-10 -->
+					<form method="get" action="#" id="sample-form" class="form-horizontal col-xs-10 col-xs-offset-1">
 
-					<div class="form-group">
-						<!-- Labels for each field are places within a <label> tag. Use the "for" attribute. the class="control-label" is for styling. -->
-						<label for="inputName1" class="control-label">Name</label>
-						<!-- the div class="input-group" contains both the text field and the icon to the left -->
-						<div class="input-group">
-							<!-- this div and span contains the glyphicon to the left. aria-hidden is so that screen readers don't read this element -->
-							<div class="input-group-addon">
-								<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+						<div class="form-group">
+							<!-- Labels for each field are places within a <label> tag. Use the "for" attribute. the class="control-label" is for styling. -->
+							<label for="inputName1" class="control-label">Name</label>
+							<!-- the div class="input-group" contains both the text field and the icon to the left -->
+							<div class="input-group">
+								<!-- this div and span contains the glyphicon to the left. aria-hidden is so that screen readers don't read this element -->
+								<div class="input-group-addon">
+									<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+								</div>
+								<!-- text field input. pay attention to the id, placeholder text, type, and placeholder attributes -->
+								<input type="text" class="form-control" id="textName1" placeholder="Your name here."
+										 maxlength="150"/>
 							</div>
-							<!-- text field input. pay attention to the id, placeholder text, type, and placeholder attributes -->
-							<input type="text" class="form-control" id="textName1" placeholder="Your name here."
-									 maxlength="150"/>
 						</div>
-					</div>
 
-					<div class="form-group">
-						<label for="email1" class="control-label">Email</label>
-						<div class="input-group">
-							<div class="input-group-addon">
-								<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+						<div class="form-group">
+							<label for="email1" class="control-label">Email</label>
+							<div class="input-group">
+								<div class="input-group-addon">
+									<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+								</div>
+								<input type="email" id="email1" class="form-control" maxlength="150"
+										 placeholder="your.email@something.com"/>
 							</div>
-							<input type="email" id="email1" class="form-control" maxlength="150"
-									 placeholder="your.email@something.com"/>
 						</div>
-					</div>
 
-					<div class="form-group">
-						<label class="control-label">I am interested in:</label>
-						<!-- use div class="help-block" to explain the form content -->
-						<div class="help-block">Please check all that apply.</div>
-						<div class="checkbox">
-							<label class="checkbox">
-								<!-- name value contains square brackets which makes it easy to create an array on the back end in php -->
-								<input id="chkFavoritesKittens" name="chkFavorites[]" type="checkbox" value="Kittens"/>Web
-								Development
-							</label>
-							<label class="checkbox">
-								<input id="chkFavoritesPuppies" name="chkFavorites[]" type="checkbox" value="Puppies"/>Database
-							</label>
-							<label class="checkbox">
-								<input id="chkFavoritesRainbows" name="chkFavorites[]" type="checkbox" value="Rainbows"/>Kitties
-							</label>
-							<label class="checkbox">
-								<input id="chkFavoritesUnicorns" name="chkFavorites[]" type="checkbox" value="Unicorns"/>Puppies
-							</label>
-							<label class="checkbox">
-								<input id="chkFavoritesCthulhu" name="chkFavorites[]" type="checkbox" value="Cthulhu"/>Cthulhu
-							</label>
+						<div class="form-group">
+							<label class="control-label">I am interested in:</label>
+							<!-- use div class="help-block" to explain the form content -->
+							<div class="help-block">Please check all that apply.</div>
+							<div class="checkbox">
+								<label class="checkbox">
+									<!-- name value contains square brackets which makes it easy to create an array on the back end in php -->
+									<input id="chkFavoritesKittens" name="chkFavorites[]" type="checkbox" value="Kittens"/>Web
+									Development
+								</label>
+								<label class="checkbox">
+									<input id="chkFavoritesPuppies" name="chkFavorites[]" type="checkbox" value="Puppies"/>Database
+								</label>
+								<label class="checkbox">
+									<input id="chkFavoritesRainbows" name="chkFavorites[]" type="checkbox" value="Rainbows"/>Kitties
+								</label>
+								<label class="checkbox">
+									<input id="chkFavoritesUnicorns" name="chkFavorites[]" type="checkbox" value="Unicorns"/>Puppies
+								</label>
+								<label class="checkbox">
+									<input id="chkFavoritesCthulhu" name="chkFavorites[]" type="checkbox" value="Cthulhu"/>Cthulhu
+								</label>
+							</div>
 						</div>
-					</div>
 
-					<div class="form-group">
-						<label class="control-label" for="txtareaComments">Have More to Say?</label>
+						<div class="form-group">
+							<label class="control-label" for="txtareaComments">Have More to Say?</label>
 						<textarea class="form-control" rows="5" id="txtareaComments" maxlength="500"
 									 placeholder="500 characters max."></textarea>
-					</div>
+						</div>
 
-					<div class="form-group">
-						<!-- the following <a> tag has been styled as a button with class="btn" -->
-						<a id="reset-form" class="btn" role="button">Reset Form</a>
-						<button type="submit" class="btn">Submit</button>
-					</div>
-				</form>
+						<div class="form-group">
+							<!-- the following <a> tag has been styled as a button with class="btn" -->
+							<a id="reset-form" class="btn" role="button">Reset Form</a>
+							<button type="submit" class="btn">Submit</button>
+						</div>
+					</form>
+				</div>
 			</div>
 			<!-- CLOSE FORM WRAP -->
-
 	</body>
 </html>
-
-<!--placehold it
-
-<img src="http://placehold.it/350x150">-->
