@@ -54,7 +54,7 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="top-nav">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#hello">Hello<span class="sr-only">(current)</span></a></li>
+						<li><a href="#hello">Hello</a></li>
 						<li><a href="#portfolio">Portfolio</a></li>
 						<li><a href="#aboutMe">About Me</a></li>
 						<li><a href="#contact">Let's Talk</a></li>
@@ -63,7 +63,7 @@
 			</nav>
 
 			<!--jumbotron-->
-			<div id="hello"></div>
+			<div class="container" id="hello"></div>
 			<div class="container">
 				<div class="bg"></div>
 				<div class="jumbotron">
@@ -92,6 +92,8 @@
 						</h1>
 					</div>
 				</div>
+				<br>
+				<br>
 				<!-- /row -->
 
 				<!--tech toolbox progress bar-->
@@ -111,21 +113,35 @@
 								<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40"
 									  aria-valuemin="0"
 									  aria-valuemax="100" style="width:40%">
-									PHP
+									PHP 5.6 & 7.0
 								</div>
 							</div>
 							<div class="progress">
-								<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60"
+								<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="20"
 									  aria-valuemin="0"
-									  aria-valuemax="100" style="width:60%">
-									CSS
+									  aria-valuemax="100" style="width:20%">
+									JavaScript
 								</div>
 							</div>
 							<div class="progress">
-								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60"
+								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="40"
 									  aria-valuemin="0"
-									  aria-valuemax="100" style="width:60%">
-									HTML
+									  aria-valuemax="100" style="width:40%">
+									BootStrap
+								</div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70"
+									  aria-valuemin="0"
+									  aria-valuemax="100" style="width:70%">
+									CSS3
+								</div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="70"
+									  aria-valuemin="0"
+									  aria-valuemax="100" style="width:70%">
+									HTML5
 								</div>
 							</div>
 						</div>
@@ -146,10 +162,7 @@
 						<h3>
 							<a href="#">Project One</a>
 						</h3>
-						<p>Hey! I'm a porno-dealing monster, what do I care what you think? Why would I want to know that?
-							Oh sure! Blame the wizards! These old Doomsday Devices are dangerously unstable. This opera's as
-							lousy as it is brilliant! Your lyrics lack subtlety.
-						</p>
+						<p>Coming Soon!</p>
 					</div>
 					<div class="col-md-6 portfolio-item">
 						<a href="#">
@@ -158,9 +171,7 @@
 						<h3>
 							<a href="#">Project Two</a>
 						</h3>
-						<p>Man, I'm sore all over. I feel like I just went ten rounds with mighty Thor. Are you crazy? I
-							can't swallow that. I'll rest easier not knowing where they are. And yet you haven't said what I
-							told you to say! How can any of us trust you?</p>
+						<p>Coming Soon!</p>
 					</div>
 				</div>
 				<!-- /.row -->
@@ -174,20 +185,18 @@
 						<h3>
 							<a href="#">Project Three</a>
 						</h3>
-						<p>Morbo will now introduce tonight's candidates… PUNY HUMAN NUMBER ONE, PUNY HUMAN NUMBER TWO, and
-							Morbo's good friend, Bernie Sanders. You, a bobsledder!? We'll go deliver this crate like
-							professionals, and then we'll go home.</p>
+						<p>Coming Soon!</p>
 					</div>
 					<div class="col-md-6 portfolio-item">
 						<a href="#">
-							<img class="img-responsive" src="http://placehold.it/700x400" alt="">
+							<img class="img-responsive" src="images/siMonSiteLink.jpg"
+								  alt="screencap of SiMonZon Bootstrap, JS Practice">
 						</a>
 						<h3>
-							<a href="#">Project Four</a>
+							<a href="#">SiMonZon</a>
 						</h3>
-						<p>Perhaps, but perhaps your civilization is merely the sewer of an even greater society above you!
-							Ooh, name it after me! I'm Santa Claus! I love this planet! I've got wealth, fame, and access to
-							the depths of sleaze that those things bring. It's toe-tappingly tragic! </p>
+						<p>This was a fun afternoon practice project I created using JavaScript, HTML5, CSS3 and Bootstrap. I
+							started it on the Plunker website and then moved to PhpStorm to complete it.</p>
 					</div>
 				</div>
 			</div>
@@ -202,45 +211,56 @@
 			<br>
 			<div class="container">
 				<h1 class="jtron-h2">About Me</h1>
-				<h3 class="jtron-h3">I'm Elaine Thomas, I'm a Freelance Web Developer and..</h3>
+				<h3 class="jtron-h3">I'm Elaine Thomas. I'm a Freelance Web Developer and..</h3>
 			</div>
 			<div class="container">
 				<div class="row">
-					<!--column 1-->
-					<div class="col-md-3">
+
+					<!--column 1a-->
+					<div class="col-md-5">
 						<img src="images/telecom.jpg" alt="me last day old job" class="myImages">
 						<h4 class="jtron-h4">Solid Work History</h4>
 						<p>
-							Working in the telecom industry gave me a chance to learn snippets of proprietary programming languages but I yearned to learn more than online courses could teach me. I decided to make a career change and returned to school to learn web
+							Working in the telecom industry gave me a chance to learn snippets of proprietary programming
+							languages but I yearned to learn more than online courses could teach me. I decided to make a
+							career change and returned to school to learn web
 							development.
 						</p>
 					</div>
+					<div class="col-md-2"></div>
 
-					<!--column 2-->
-					<div class="col-md-3">
+					<!--column 2a-->
+					<div class="col-md-5">
 						<img src="images/kittyPueblo.jpg" alt="Kitty Pueblo" class="myImages">
 						<h4 class="jtron-h4">Making Stuff</h4>
 						<p>
-							I enjoy the process of creation.  Whether it's the art of baking a lovely loaf of bread or the technical specifications necessary to produce a papier-mâché pueblo for cats there is always learning involved and joy in results.
-
+							I enjoy the process of creation. Whether it's the art of baking a lovely loaf of bread or the
+							technical specifications necessary to produce a papier-mâché pueblo for cats - there is always
+							learning involved and (usually) joy in the results.
 						</p>
 					</div>
+				</div>
+				<div class="row">
 
-					<!--column 3-->
-					<div class="col-md-3">
-						<img src="images/dance.jpg" alt="me at So Ya Think You Can Dance" class="myImages">
-						<h4 class="jtron-h4">I <span class="glyphicon glyphicon-heart-empty"></span> to Dance</h4>
-						<p>
-							“‎Dancing is not just getting up painlessly, like a leaf blown on the wind; dancing is when you tear your heart out and rise out of your body to hang suspended between the worlds.”  ~Rumi
-						</p>
-					</div>
-
-					<!--column 4-->
-					<div class="col-md-3">
+					<!--column 1b-->
+					<div class="col-md-5">
 						<img src="images/gaming.jpg" alt="game group" class="myImages">
 						<h4 class="jtron-h4">Gaming</h4>
 						<p>
-							Cooperative gaming is my favorite game style.  I relish gaming in several forms - online (most recently Destiny), tabletop (Ascension, Magic The Gathering, Fluxx), and pen & paper role playing games (Pathfinder).   By no means is this all of the games I enjoy.  I like to learn new games too.
+							Cooperative gaming is my favorite game style. I relish gaming in several forms - online (most
+							recently Destiny), tabletop (Ascension, Magic The Gathering, Fluxx), and pen & paper role playing
+							games (Pathfinder). By no means is this all of the games I enjoy. I like to learn new games too.
+						</p>
+					</div>
+					<div class="col-md-2"></div>
+
+					<!--column 2b-->
+					<div class="col-md-5">
+						<img src="images/dance.jpg" alt="me at So Ya Think You Can Dance" class="myImages">
+						<h4 class="jtron-h4">I <span class="glyphicon glyphicon-heart-empty"></span> to Dance</h4>
+						<p>
+							“‎Dancing is not just getting up painlessly, like a leaf blown on the wind; dancing is when you
+							tear your heart out and rise out of your body to hang suspended between the worlds.” ~Rumi
 						</p>
 					</div>
 				</div>
@@ -252,12 +272,16 @@
 			<br>
 			<hr>
 
-			<!--TODO: add the rest of the contact content			-->
+			<!-- Beginning of contact page -->
 
-			<h2 id="contact">Let's Talk</h2>
-			<!--contact form template-->
+			<!--contact form template from DDBC-->
 			<!-- The div class="form-wrap" is the black box containing the form. It's set to a column width of 12 for small screens, and a column width of 6 for medium screens on up -->
+
+			<br>
+			<br id="contact">
+			<br>
 			<div class="container">
+				<h2 class="jtron-h2">Let's Talk</h2>
 				<div class="col-xs-12 col-md-7 form-wrap">
 					<!-- Form is centered within it's container, and is set to 10 be columns wide RELATIVE TO IT'S CONTAINER, and offset to the right by one column. See classes: col-xs-offset-1 & col-xs-10 -->
 					<form method="get" action="#" id="sample-form" class="form-horizontal col-xs-10 col-xs-offset-1">
@@ -289,32 +313,35 @@
 						</div>
 
 						<div class="form-group">
-							<label class="control-label">I am interested in:</label>
+							<label class="control-label">I'm available for freelance work, are you interested in:</label>
 							<!-- use div class="help-block" to explain the form content -->
 							<div class="help-block">Please check all that apply.</div>
 							<div class="checkbox">
 								<label class="checkbox">
 									<!-- name value contains square brackets which makes it easy to create an array on the back end in php -->
-									<input id="chkFavoritesKittens" name="chkFavorites[]" type="checkbox" value="Kittens"/>Web
-									Development
+									<input id="chkFavoritesKittens" name="chkFavorites[]" type="checkbox" value="Kittens"/>Personal
+									Website
+								</label>
+								<label class="checkbox">
+									<input id="chkFavoritesRainbows" name="chkFavorites[]" type="checkbox" value="Rainbows"/>Business
+									Website
 								</label>
 								<label class="checkbox">
 									<input id="chkFavoritesPuppies" name="chkFavorites[]" type="checkbox" value="Puppies"/>Database
+									Development, Testing, Maintenance
 								</label>
 								<label class="checkbox">
-									<input id="chkFavoritesRainbows" name="chkFavorites[]" type="checkbox" value="Rainbows"/>Kitties
+									<input id="chkFavoritesUnicorns" name="chkFavorites[]" type="checkbox" value="Unicorns"/>Collaboration
 								</label>
-								<label class="checkbox">
-									<input id="chkFavoritesUnicorns" name="chkFavorites[]" type="checkbox" value="Unicorns"/>Puppies
-								</label>
-								<label class="checkbox">
-									<input id="chkFavoritesCthulhu" name="chkFavorites[]" type="checkbox" value="Cthulhu"/>Cthulhu
-								</label>
+								<!--								<label class="checkbox">-->
+								<!--									<input id="chkFavoritesCthulhu" name="chkFavorites[]" type="checkbox" value="Cthulhu"/>Cthulhu-->
+								<!--								</label>-->
 							</div>
 						</div>
 
+						<!--comment box-->
 						<div class="form-group">
-							<label class="control-label" for="txtareaComments">Have More to Say?</label>
+							<label class="control-label" for="txtareaComments">Questions or Comments?</label>
 						<textarea class="form-control" rows="5" id="txtareaComments" maxlength="500"
 									 placeholder="500 characters max."></textarea>
 						</div>
