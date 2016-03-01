@@ -274,6 +274,8 @@
 			<br>
 			<div class="container">
 				<h2 class="jtron-h2" id="contact">Let's Talk</h2>
+				<h3><a href="http://www.linkedin.com/in/el41net"><span class="jtron-h3">Connect With Me on LinkedIn</span><img src="images/linkedIn.png" alt="LinkedIn logo"
+																																						  id="linkedIn"></a></h3>
 				<div class="col-xs-12 col-md-7 form-wrap">
 					<!-- Form is centered within it's container, and is set to 10 be columns wide RELATIVE TO IT'S CONTAINER, and offset to the right by one column. See classes: col-xs-offset-1 & col-xs-10 -->
 					<form method="get" action="#" id="sample-form" class="form-horizontal col-xs-10 col-xs-offset-1">

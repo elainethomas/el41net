@@ -67,7 +67,7 @@ color: #a4c161;
 	margin: 25px 0;
 }
 
-#lilKitty {
+#lilKitty, #linkedIn {
 	width: 50px;
 	height: 50px;
 	padding: 1px;
@@ -87,7 +87,6 @@ color: #a4c161;
 
 /*form*/
 form#sample-form {
-	/*color: #1295FF;*/
 	color: #fff;
 }
 
@@ -111,7 +110,7 @@ form#sample-form {
 	font-weight: 300;
 	padding-bottom: 4px;
 	text-align: left !important;
-	color: #a4c161
+	color: #9776a9;
 }
 
 #sample-form .input-group-addon {
