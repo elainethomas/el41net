@@ -15,9 +15,16 @@ body {
 }
 
 .bg, .jumbotron {
-	height: 850px; /*bg of jumbotron needs to be same height as jumbotron */
+	height: 950px; /*bg of jumbotron needs to be same height as jumbotron */
 }
 
+.jumbotron, #portfolio, #aboutMe {
+	padding-top: 60px;
+}
+
+nav.navbar {
+	padding-right: 20px;
+}
 /*this formats the background image on the header*/
 .bg {
 	background-image: url("images/background.jpg");
@@ -58,7 +65,6 @@ color: #a4c161;
 	border-radius: 5%;
 	border: groove 2px white;
 	margin: 25px 0;
-
 }
 
 #lilKitty {

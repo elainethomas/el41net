@@ -54,7 +54,7 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="top-nav">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#hello">Hello</a></li>
+						<li><a href="#">Hello</a></li>
 						<li><a href="#portfolio">Portfolio</a></li>
 						<li><a href="#aboutMe">About Me</a></li>
 						<li><a href="#contact">Let's Talk</a></li>
@@ -63,7 +63,6 @@
 			</nav>
 
 			<!--jumbotron-->
-			<div class="container" id="hello"></div>
 			<div class="container">
 				<div class="bg"></div>
 				<div class="jumbotron">
@@ -73,18 +72,19 @@
 					<p class="jtron-h4">design, code, implement, maintain</p>
 				</div>
 			</div>
-			<br>
 		</header>
+		<!-- end of jumbotron -->
+
 		<main>
-			<br id="portfolio">
+			<br>
+			<br>
 
-
-			<!--Portfolio - where I'll have screen shots of my websites mapped to live sites and has hover abilities.-->
+			<!--Portfolio - where I'll have screen shots of my websites mapped to live sites-->
 			<!-- Page Header -->
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
-						<h1 class="page-header"><span class="jtron-h2">Portfolio</span><br>
+						<h1 class="page-header"><span class="jtron-h2" id="portfolio">Portfolio</span><br>
 							<small><a href="https://github.com/ethomas12">
 									<span class="jtron-h3">My GitHub</span><img src="images/gitButn.png" alt="octoCat"
 																							  id="lilKitty">
@@ -207,9 +207,7 @@
 
 			<!--About Me-->
 
-			<br id="aboutMe">
-			<br>
-			<div class="container">
+			<div class="container" id="aboutMe">
 				<h1 class="jtron-h2">About Me</h1>
 				<h3 class="jtron-h3">I'm Elaine Thomas. I'm a Freelance Web Developer and..</h3>
 			</div>
@@ -219,7 +217,7 @@
 					<!--column 1a-->
 					<div class="col-md-5">
 						<img src="images/telecom.jpg" alt="me last day old job" class="myImages">
-						<h4 class="jtron-h4">Solid Work History</h4>
+						<h4 class="jtron-h4">I Have A Solid Work History</h4>
 						<p>
 							Working in the telecom industry gave me a chance to learn snippets of proprietary programming
 							languages but I yearned to learn more than online courses could teach me. I decided to make a
@@ -232,7 +230,7 @@
 					<!--column 2a-->
 					<div class="col-md-5">
 						<img src="images/kittyPueblo.jpg" alt="Kitty Pueblo" class="myImages">
-						<h4 class="jtron-h4">Making Stuff</h4>
+						<h4 class="jtron-h4">I Like Making Stuff</h4>
 						<p>
 							I enjoy the process of creation. Whether it's the art of baking a lovely loaf of bread or the
 							technical specifications necessary to produce a papier-mâché pueblo for cats - there is always
@@ -245,7 +243,7 @@
 					<!--column 1b-->
 					<div class="col-md-5">
 						<img src="images/gaming.jpg" alt="game group" class="myImages">
-						<h4 class="jtron-h4">Gaming</h4>
+						<h4 class="jtron-h4">Gaming!</h4>
 						<p>
 							Cooperative gaming is my favorite game style. I relish gaming in several forms - online (most
 							recently Destiny), tabletop (Ascension, Magic The Gathering, Fluxx), and pen & paper role playing
@@ -267,21 +265,15 @@
 			</div>
 			<br>
 			<br>
-			<br>
-			<br>
-			<br>
 			<hr>
 
-			<!-- Beginning of contact page -->
+			<!-- Beginning of contact page contact form template from DDCB -->
 
-			<!--contact form template from DDBC-->
 			<!-- The div class="form-wrap" is the black box containing the form. It's set to a column width of 12 for small screens, and a column width of 6 for medium screens on up -->
 
 			<br>
-			<br id="contact">
-			<br>
 			<div class="container">
-				<h2 class="jtron-h2">Let's Talk</h2>
+				<h2 class="jtron-h2" id="contact">Let's Talk</h2>
 				<div class="col-xs-12 col-md-7 form-wrap">
 					<!-- Form is centered within it's container, and is set to 10 be columns wide RELATIVE TO IT'S CONTAINER, and offset to the right by one column. See classes: col-xs-offset-1 & col-xs-10 -->
 					<form method="get" action="#" id="sample-form" class="form-horizontal col-xs-10 col-xs-offset-1">
