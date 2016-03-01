@@ -46,3 +46,14 @@ Your content strategy and interaction flow all pass. Your Milestone passes at [T
     mobileWire2.jpg
     interFlow.svg
 ```
+### Milestone 2b Feedback
+Awesome job! After some cleanup with your layout, you'll ready to deploy to ASO. See steps below.
+Your Milestone 2b passes at [Tier IV](https://bootcamp-coders.cnm.edu/projects/personal/rubric/)
+
+#### Edits &amp; Suggestions
+1. Go over https://bootcamp-coders.cnm.edu/class-materials/php/email/, add composer.json and mailer.php
+1. ASO tasks: enable shell access - live chat support
+2. Add SSH key
+3. Add an email, and a email forwarder if you like :)
+4. Redirect Document Root - subdomains menu CPanel
+5. Create a new deployment in PhpStorm that uploads to ASO, and upload your site there.
