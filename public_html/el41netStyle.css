@@ -18,7 +18,7 @@ body {
 	height: 950px; /*bg of jumbotron needs to be same height as jumbotron */
 }
 
-.jumbotron, #portfolio, #aboutMe {
+.jumbotron, #portfolio, #aboutMe, #contact {
 	padding-top: 60px;
 }
 
