@@ -86,7 +86,7 @@
 					<div class="col-lg-12">
 						<h1 class="page-header"><span class="jtron-h2" id="portfolio">Portfolio</span><br>
 							<small><a href="https://github.com/ethomas12">
-									<span class="jtron-h3">My GitHub</span><img src="images/gitButn.png" alt="octoCat"
+									My GitHub<img src="images/gitButn.png" alt="octoCat"
 																							  id="lilKitty">
 							</small>
 						</h1>
@@ -272,9 +272,12 @@
 			<!-- The div class="form-wrap" is the black box containing the form. It's set to a column width of 12 for small screens, and a column width of 6 for medium screens on up -->
 
 
+
+
 			<div class="container">
 				<h2 class="jtron-h2" id="contact">Let's Talk</h2>
 				<a href="http://www.linkedin.com/in/el41net"><h3><span class="jtron-h3">Connect With Me on LinkedIn</span></h3></a>
+				<a href="mailto:el41net@el41net.com"><h4><span class="jtron-h5">el41net@el41net.com</span></h4></a>
 
 					<div class="col-xs-12 col-md-7 form-wrap">
 						<!-- Form is centered within it's container, and is set to 10 be columns wide RELATIVE TO IT'S CONTAINER, and offset to the right by one column. See classes: col-xs-offset-1 & col-xs-10 -->
