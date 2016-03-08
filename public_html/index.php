@@ -87,7 +87,7 @@
 						<h1 class="page-header"><span class="jtron-h2" id="portfolio">Portfolio</span><br>
 							<small><a href="https://github.com/ethomas12">
 									My GitHub<img src="images/gitButn.png" alt="octoCat"
-																							  id="lilKitty">
+													  id="lilKitty">
 							</small>
 						</h1>
 					</div>
@@ -270,86 +270,54 @@
 			<!-- Beginning of contact page contact form template from DDCB -->
 
 			<!-- The div class="form-wrap" is the black box containing the form. It's set to a column width of 12 for small screens, and a column width of 6 for medium screens on up -->
-
-
-
-
 			<div class="container">
 				<h2 class="jtron-h2" id="contact">Let's Talk</h2>
-				<a href="http://www.linkedin.com/in/el41net"><h3><span class="jtron-h3">Connect With Me on LinkedIn</span></h3></a>
+				<a href="http://www.linkedin.com/in/el41net"><h3><span class="jtron-h3">Connect With Me on LinkedIn</span>
+					</h3></a>
 				<a href="mailto:el41net@el41net.com"><h4><span class="jtron-h5">el41net@el41net.com</span></h4></a>
-
-					<div class="col-xs-12 col-md-7 form-wrap">
-						<!-- Form is centered within it's container, and is set to 10 be columns wide RELATIVE TO IT'S CONTAINER, and offset to the right by one column. See classes: col-xs-offset-1 & col-xs-10 -->
-						<form method="get" action="php/lib/mailer.php" id="sample-form" class="form-horizontal col-xs-10 col-xs-offset-1">
-
-							<div class="form-group">
-								<!-- Labels for each field are places within a <label> tag. Use the "for" attribute. the class="control-label" is for styling. -->
-								<label for="inputName1" class="control-label">Name</label>
-								<!-- the div class="input-group" contains both the text field and the icon to the left -->
-								<div class="input-group">
-									<!-- this div and span contains the glyphicon to the left. aria-hidden is so that screen readers don't read this element -->
-									<div class="input-group-addon">
-										<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-									</div>
-									<!-- text field input. pay attention to the id, placeholder text, type, and placeholder attributes -->
-									<input type="text" class="form-control" id="textName1" placeholder="Your name here."
-											 maxlength="150"/>
+				<div class="col-xs-12 col-md-7 form-wrap">
+					<form action="php/lib/mailer.php">
+						<div class="form-group">
+							<label for="name">Name</label>
+							<div class="input-group">
+								<div class="input-group-addon">
+									<i class="fa fa-user" aria-hidden="true"></i>
 								</div>
+								<input type="text" class="form-control" id="name" name="name" placeholder="Name">
 							</div>
-
-							<div class="form-group">
-								<label for="email1" class="control-label">Email</label>
-								<div class="input-group">
-									<div class="input-group-addon">
-										<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-									</div>
-									<input type="email" id="email1" class="form-control" maxlength="150"
-											 placeholder="your.email@something.com"/>
+						</div>
+						<div class="form-group">
+							<label for="email">Email address</label>
+							<div class="input-group">
+								<div class="input-group-addon">
+									<i class="fa fa-envelope" aria-hidden="true"></i>
 								</div>
+								<input type="email" class="form-control" id="email" name="email" placeholder="Email">
 							</div>
-
-							<div class="form-group">
-								<label class="control-label">I'm available for freelance work, are you interested in:</label>
-								<!-- use div class="help-block" to explain the form content -->
-								<div class="help-block">Please check all that apply.</div>
-								<div class="checkbox">
-									<label class="checkbox">
-										<!-- name value contains square brackets which makes it easy to create an array on the back end in php -->
-										<input id="chkFavoritesKittens" name="chkFavorites[]" type="checkbox" value="Kittens"/>Personal
-										Website
-									</label>
-									<label class="checkbox">
-										<input id="chkFavoritesRainbows" name="chkFavorites[]" type="checkbox" value="Rainbows"/>Business
-										Website
-									</label>
-									<label class="checkbox">
-										<input id="chkFavoritesPuppies" name="chkFavorites[]" type="checkbox" value="Puppies"/>Database
-										Development, Testing, Maintenance
-									</label>
-									<label class="checkbox">
-										<input id="chkFavoritesUnicorns" name="chkFavorites[]" type="checkbox" value="Unicorns"/>Collaboration
-									</label>
-									<!--								<label class="checkbox">-->
-									<!--									<input id="chkFavoritesCthulhu" name="chkFavorites[]" type="checkbox" value="Cthulhu"/>Cthulhu-->
-									<!--								</label>-->
+						</div>
+						<div class="form-group">
+							<label for="subject">Subject</label>
+							<div class="input-group">
+								<div class="input-group-addon">
+									<i class="fa fa-pencil" aria-hidden="true"></i>
 								</div>
+								<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
 							</div>
-
-							<!--comment box-->
-							<div class="form-group">
-								<label class="control-label" for="txtareaComments">Questions or Comments?</label>
-						<textarea class="form-control" rows="5" id="txtareaComments" maxlength="500"
-									 placeholder="500 characters max."></textarea>
+						</div>
+						<div class="form-group">
+							<label for="message">Message</label>
+							<div class="input-group">
+								<div class="input-group-addon">
+									<i class="fa fa-comment" aria-hidden="true"></i>
+								</div>
+								<textarea class="form-control" rows="5" id="message" name="message"
+											 placeholder="Message"></textarea>
 							</div>
-
-							<div class="form-group">
-								<!-- the following <a> tag has been styled as a button with class="btn" -->
-								<a id="reset-form" class="btn" role="button">Reset Form</a>
-								<button type="submit" class="btn">Submit</button>
-							</div>
-						</form>
-					</div>
+						</div>
+						<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+						<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+					</form>
+				</div>
 			</div>
 			<!-- CLOSE FORM WRAP -->
 	</body>
