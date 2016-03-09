@@ -38,6 +38,9 @@
 				  integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
 				  crossorigin="anonymous"></script>
 
+		<!--Custom JavaScript File-->
+		<script src="java-script/common.js"></script>
+
 		<title>EL41NET</title>
 	</head>
 	<body>
