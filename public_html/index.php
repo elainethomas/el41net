@@ -279,9 +279,9 @@
 			<div class="container">
 				<h2 class="jtron-h2" id="contact">Let's Talk</h2>
 				<a href="http://www.linkedin.com/in/el41net"><h3>Connect With Me on LinkedIn</h3></a>
-				<a href="mailto:el41net@el41net.com"><h4><span class="jtron-h5">el41net@el41net.com</span></h4></a>
 				<div class="col-xs-12 col-md-7 form-wrap">
 
+					<!-- begin form from DDBC-->
 					<form id="contact-form" action="php/lib/mailer.php" method="post">
 						<div class="form-group">
 							<label for="name">Name</label>
