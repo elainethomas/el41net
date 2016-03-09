@@ -17,6 +17,9 @@
 				integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r"
 				crossorigin="anonymous"/>
 
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
 		<!-- LOAD OUR CUSTOM STYLESHEET HERE!!!!! -->
 		<link rel="stylesheet" href="el41netStyle.css"/>
 
@@ -272,11 +275,11 @@
 			<!-- The div class="form-wrap" is the black box containing the form. It's set to a column width of 12 for small screens, and a column width of 6 for medium screens on up -->
 			<div class="container">
 				<h2 class="jtron-h2" id="contact">Let's Talk</h2>
-				<a href="http://www.linkedin.com/in/el41net"><h3><span class="jtron-h3">Connect With Me on LinkedIn</span>
-					</h3></a>
+				<a href="http://www.linkedin.com/in/el41net"><h3>Connect With Me on LinkedIn</h3></a>
 				<a href="mailto:el41net@el41net.com"><h4><span class="jtron-h5">el41net@el41net.com</span></h4></a>
 				<div class="col-xs-12 col-md-7 form-wrap">
-					<form action="php/lib/mailer.php">
+
+					<form id="contact-form" action="php/lib/mailer.php" method="post">
 						<div class="form-group">
 							<label for="name">Name</label>
 							<div class="input-group">
@@ -319,6 +322,7 @@
 					</form>
 				</div>
 			</div>
+			<div id="output-area"></div>
 			<!-- CLOSE FORM WRAP -->
 	</body>
 </html>
