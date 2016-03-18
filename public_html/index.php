@@ -163,16 +163,16 @@
 				<div class="row">
 					<div class="col-md-6 portfolio-item">
 						<a href="#">
-							<img class="img-responsive" src="http://placehold.it/700x400" alt="">
+							<img class="img-responsive" src="images/timecrunch.jpg" alt="timecrunch">
 						</a>
 						<h3>
 							<a href="#">Project One</a>
 						</h3>
-						<p>Coming Soon!</p>
+						<p>Time Crunch - my team capstone project - is a schedule management application developed with Bootstrap and Angular.js.</p>
 					</div>
 					<div class="col-md-6 portfolio-item">
-						<a href="#">
-							<img class="img-responsive" src="images/timecrunch.jpg" alt="timecrunch">
+						<a href="">
+							<img class="img-responsive" src="http://placehold.it/700x400" alt="">
 						</a>
 						<h3>
 							<a href="#">Project Two</a>
