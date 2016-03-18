@@ -162,7 +162,7 @@
 				<!-- Projects Row 1-->
 				<div class="row">
 					<div class="col-md-6 portfolio-item">
-						<a href="#">
+						<a href="http://time-crunch.com">
 							<img class="img-responsive" src="images/timecrunch.jpg" alt="timecrunch">
 						</a>
 						<h3>
