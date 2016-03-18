@@ -168,7 +168,7 @@
 						<h3>
 							<a href="#">Project One</a>
 						</h3>
-						<p>Time Crunch - my team capstone project - is a schedule management application developed with Bootstrap and Angular.js.</p>
+						<p>Time Crunch - my team capstone project - is a schedule management application developed with PHP, MySQL, Bootstrap and Angular.js.</p>
 					</div>
 					<div class="col-md-6 portfolio-item">
 						<a href="">
