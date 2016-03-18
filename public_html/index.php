@@ -172,7 +172,7 @@
 					</div>
 					<div class="col-md-6 portfolio-item">
 						<a href="#">
-							<img class="img-responsive" src="http://placehold.it/700x400" alt="">
+							<img class="img-responsive" src="images/timecrunch.jpg" alt="timecrunch">
 						</a>
 						<h3>
 							<a href="#">Project Two</a>
@@ -215,7 +215,7 @@
 
 			<div class="container" id="aboutMe">
 				<h1 class="jtron-h2">About Me</h1>
-				<h3 class="jtron-h3">I'm Elaine Thomas. I'm a Freelance Web Developer and..</h3>
+				<h3 class="jtron-h3">I'm Elaine Thomas. I'm a Web Developer and..</h3>
 			</div>
 			<div class="container">
 				<div class="row">
@@ -278,7 +278,8 @@
 			<!-- The div class="form-wrap" is the black box containing the form. It's set to a column width of 12 for small screens, and a column width of 6 for medium screens on up -->
 			<div class="container">
 				<h2 class="jtron-h2" id="contact">Let's Talk</h2>
-				<a href="http://www.linkedin.com/in/el41net"><h3>Connect With Me on LinkedIn</h3></a>
+				<h3 class="jtron-h3">I'm available for contract work.</h3>
+				<a href="http://www.linkedin.com/in/el41net"><h4>Connect With Me on LinkedIn</h4></a>
 				<div class="col-xs-12 col-md-7 form-wrap">
 
 					<!-- begin form from DDBC-->
