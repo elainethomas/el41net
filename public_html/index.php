@@ -109,16 +109,16 @@
 						<div class="col-md-8">
 							<h3 class="jtron-h3">My Tech Toolbox:</h3>
 							<div class="progress">
-								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="20"
 									  aria-valuemin="0"
-									  aria-valuemax="100" style="width:40%">
+									  aria-valuemax="100" style="width:20%">
 									mySQL
 								</div>
 							</div>
 							<div class="progress">
-								<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40"
+								<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20"
 									  aria-valuemin="0"
-									  aria-valuemax="100" style="width:40%">
+									  aria-valuemax="100" style="width:20%">
 									PHP 5.6 & 7.0
 								</div>
 							</div>
@@ -130,21 +130,28 @@
 								</div>
 							</div>
 							<div class="progress">
-								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="40"
+								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="5"
+									  aria-valuemin="0"
+									  aria-valuemax="100" style="width:5%">
+									Angular.js
+								</div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
 									  aria-valuemin="0"
 									  aria-valuemax="100" style="width:40%">
 									BootStrap
 								</div>
 							</div>
 							<div class="progress">
-								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70"
+								<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="70"
 									  aria-valuemin="0"
 									  aria-valuemax="100" style="width:70%">
 									CSS3
 								</div>
 							</div>
 							<div class="progress">
-								<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="70"
+								<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70"
 									  aria-valuemin="0"
 									  aria-valuemax="100" style="width:70%">
 									HTML5
