@@ -208,7 +208,7 @@
 						<h3>
 							<a href="https://plnkr.co/dRZTXo76WOEcqr8ip8fk">SiMonZon</a>
 						</h3>
-						<p>This was a fun afternoon practice project I created using JavaScript, HTML5, CSS3 and Bootstrap. I
+						<p>This was an afternoon practice project I created using JavaScript, HTML5, CSS3 and Bootstrap. I
 							started it on the Plunker website and then moved to PhpStorm to complete it.  (Plunker Link has no images.)</p>
 					</div>
 				</div>
