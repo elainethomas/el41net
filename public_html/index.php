@@ -198,7 +198,7 @@
 						<h3>
 							<a href="#">Project Three</a>
 						</h3>
-						<p>Coming Soon!</p>
+						<p></p>
 					</div>
 					<div class="col-md-6 portfolio-item">
 						<a href="https://plnkr.co/dRZTXo76WOEcqr8ip8fk">
