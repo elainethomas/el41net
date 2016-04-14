@@ -178,13 +178,13 @@
 						<p>Time Crunch - my team capstone project - is a schedule management application developed with PHP, MySQL, Bootstrap and Angular.js.</p>
 					</div>
 					<div class="col-md-6 portfolio-item">
-						<a href="">
-							<img class="img-responsive" src="http://placehold.it/700x400" alt="">
+						<a href="#">
+							<img class="img-responsive" src="images/silverH.jpg" alt="">
 						</a>
 						<h3>
-							<a href="#">Project Two</a>
+							<a href="#">Silver Horizons</a>
 						</h3>
-						<p>Coming Soon!</p>
+						<p>I volunteer with Silver Horizons as a web developer to update and further develop their non-profit website.</p>
 					</div>
 				</div>
 				<!-- /.row -->
@@ -198,7 +198,7 @@
 						<h3>
 							<a href="#">Project Three</a>
 						</h3>
-						<p></p>
+						<p>Coming Soon!</p>
 					</div>
 					<div class="col-md-6 portfolio-item">
 						<a href="https://plnkr.co/dRZTXo76WOEcqr8ip8fk">
