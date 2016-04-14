@@ -167,6 +167,7 @@
 				<!--end of tool box-->
 
 				<!-- Projects Row 1-->
+					<!-- Project 1 -->
 				<div class="row">
 					<div class="col-md-6 portfolio-item">
 						<a href="http://time-crunch.com">
@@ -177,9 +178,10 @@
 						</h3>
 						<p>Time Crunch - my team capstone project - is a schedule management application developed with PHP, MySQL, Bootstrap and Angular.js.</p>
 					</div>
+						<!-- Project 2 -->
 					<div class="col-md-6 portfolio-item">
 						<a href="#">
-							<img class="img-responsive" src="images/silverH.jpg" alt="">
+							<img class="img-responsive" src="images/silverH.jpg" alt="sample page">
 						</a>
 						<h3>
 							<a href="#">Silver Horizons</a>
@@ -190,6 +192,7 @@
 				<!-- /.row -->
 
 				<!-- Projects Row 2-->
+					<!-- Project 3 -->
 				<div class="row">
 					<div class="col-md-6 portfolio-item">
 						<a href="#">
@@ -200,6 +203,7 @@
 						</h3>
 						<p>Coming Soon!</p>
 					</div>
+						<!-- Project 4 -->
 					<div class="col-md-6 portfolio-item">
 						<a href="https://plnkr.co/dRZTXo76WOEcqr8ip8fk">
 							<img class="img-responsive" src="images/siMonSiteLink.jpg"
