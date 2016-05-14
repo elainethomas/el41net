@@ -338,6 +338,6 @@
 				</div>
 			</div>
 			<div id="output-area"></div>
-			<!-- CLOSE FORM WRAP -->
+			<!-- CLOSE FORM WRAP RIGHT HERE-->
 	</body>
 </html>
