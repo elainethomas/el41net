@@ -201,7 +201,7 @@
 						<h3>
 							<a href="#">Project Three</a>
 						</h3>
-						<p>Coming Soon!</p>
+						<p>My Fun Website</p>
 					</div>
 						<!-- Project 4 -->
 					<div class="col-md-6 portfolio-item">
