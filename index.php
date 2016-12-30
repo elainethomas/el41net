@@ -92,7 +92,7 @@
 					<div class="col-lg-12">
 						<h1 class="page-header"><span class="jtron-h2" id="portfolio">Portfolio</span><br>
 							<small><a href="https://github.com/ethomas12">
-									My GitHub<img src="public_html/images/gitButn.png" alt="octoCat"
+									My GitHub<img src="images/gitButn.png" alt="octoCat"
 													  id="lilKitty">
 							</small>
 						</h1>
@@ -171,7 +171,7 @@
 				<div class="row">
 					<div class="col-md-6 portfolio-item">
 						<a href="http://time-crunch.com">
-							<img class="img-responsive" src="public_html/images/timecrunch.jpg" alt="timecrunch">
+							<img class="img-responsive" src="images/timecrunch.jpg" alt="timecrunch">
 						</a>
 						<h3>
 							<a href="http://time-crunch.com">Project One</a>
@@ -181,7 +181,7 @@
 						<!-- Project 2 -->
 					<div class="col-md-6 portfolio-item">
 						<a href="#">
-							<img class="img-responsive" src="public_html/images/silverH.jpg" alt="sample page">
+							<img class="img-responsive" src="images/silverH.jpg" alt="sample page">
 						</a>
 						<h3>
 							<a href="#">Silver Horizons</a>
@@ -206,7 +206,7 @@
 						<!-- Project 4 -->
 					<div class="col-md-6 portfolio-item">
 						<a href="https://plnkr.co/dRZTXo76WOEcqr8ip8fk">
-							<img class="img-responsive" src="public_html/images/siMonSiteLink.jpg"
+							<img class="img-responsive" src="images/siMonSiteLink.jpg"
 								  alt="screencap of SiMonZon Bootstrap, JS Practice">
 						</a>
 						<h3>
@@ -233,7 +233,7 @@
 
 					<!--column 1a-->
 					<div class="col-md-5">
-						<img src="public_html/images/telecom.jpg" alt="me last day old job" class="myImages">
+						<img src="images/telecom.jpg" alt="me last day old job" class="myImages">
 						<h4 class="jtron-h4">I Have A Solid Work History</h4>
 						<p>
 							Working in the telecom industry gave me a chance to learn snippets of proprietary programming
@@ -246,7 +246,7 @@
 
 					<!--column 2a-->
 					<div class="col-md-5">
-						<img src="public_html/images/kittyPueblo.jpg" alt="Kitty Pueblo" class="myImages">
+						<img src="images/kittyPueblo.jpg" alt="Kitty Pueblo" class="myImages">
 						<h4 class="jtron-h4">I Like Making Stuff</h4>
 						<p>
 							I enjoy the process of creation. Whether it's the art of baking a lovely loaf of bread or the
@@ -259,7 +259,7 @@
 
 					<!--column 1b-->
 					<div class="col-md-5">
-						<img src="public_html/images/gaming.jpg" alt="game group" class="myImages">
+						<img src="images/gaming.jpg" alt="game group" class="myImages">
 						<h4 class="jtron-h4">Gaming!</h4>
 						<p>
 							Cooperative gaming is my favorite game style. I relish gaming in several forms - online (most
@@ -271,7 +271,7 @@
 
 					<!--column 2b-->
 					<div class="col-md-5">
-						<img src="public_html/images/dance.jpg" alt="me at So Ya Think You Can Dance" class="myImages">
+						<img src="images/dance.jpg" alt="me at So Ya Think You Can Dance" class="myImages">
 						<h4 class="jtron-h4">I <span class="glyphicon glyphicon-heart-empty"></span> to Dance</h4>
 						<p>
 							“‎Dancing is not just getting up painlessly, like a leaf blown on the wind; dancing is when you

@@ -27,7 +27,7 @@ nav.navbar {
 }
 /*this formats the background image on the header*/
 .bg {
-	background-image: url("public_html/images/background.jpg");
+	background-image: url("images/background.jpg");
 	position: absolute;
 	width: 100%;
 	top: 0;
