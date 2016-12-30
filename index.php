@@ -294,7 +294,7 @@
 				<div class="col-xs-12 col-md-7 form-wrap">
 
 					<!-- begin form from DDBC-->
-					<form id="contact-form" action="public_html/php/lib/mailer.php" method="post">
+					<form id="contact-form" action="php/lib/mailer.php" method="post">
 						<div class="form-group">
 							<label for="name">Name</label>
 							<div class="input-group">
