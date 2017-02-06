@@ -174,7 +174,7 @@
 							<img class="img-responsive" src="images/timecrunch.jpg" alt="timecrunch">
 						</a>
 						<h3>
-							<a href="http://time-crunch.com">Project One</a>
+							Project One
 						</h3>
 						<p>Time Crunch - my team capstone project - is a schedule management application developed with PHP, MySQL, Bootstrap and Angular.js.</p>
 					</div>
@@ -184,7 +184,7 @@
 							<img class="img-responsive" src="images/silverH.jpg" alt="sample page">
 						</a>
 						<h3>
-							<a href="#">Silver Horizons</a>
+							Silver Horizons
 						</h3>
 						<p>I volunteer with Silver Horizons as a web developer to update and further develop their non-profit website.</p>
 					</div>
@@ -289,7 +289,7 @@
 			<!-- The div class="form-wrap" is the black box containing the form. It's set to a column width of 12 for small screens, and a column width of 6 for medium screens on up -->
 			<div class="container">
 				<h2 class="jtron-h2" id="contact">Let's Talk</h2>
-				<h3 class="jtron-h3">I'm available for contract work.</h3>
+				<h3 class="jtron-h3">I am employed with <a href="http://11online.us">11 Online</a> as a Web Developer / Project Manager.</h3>
 				<a href="http://www.linkedin.com/in/el41net"><h4>Connect With Me on LinkedIn</h4></a>
 				<div class="col-xs-12 col-md-7 form-wrap">
 
