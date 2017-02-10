@@ -41,7 +41,7 @@
 		<!--Custom JavaScript File-->
 		<script src="public_html/java-script/common.js"></script>
 
-		<title>EL41NET</title>
+		<title>Infinite Possibilities</title>
 	</head>
 	<body>
 		<header class="page-header">
@@ -92,8 +92,8 @@
 					<div class="col-lg-12">
 						<h1 class="page-header"><span class="jtron-h2" id="portfolio">Portfolio</span><br>
 							<small><a href="https://github.com/ethomas12">
-									My GitHub<img src="images/gitButn.png" alt="octoCat"
-													  id="lilKitty">
+									See My GitHub<img src="images/gitButn.png" alt="octoCat"
+															id="lilKitty">
 							</small>
 						</h1>
 					</div>
@@ -109,28 +109,28 @@
 						<div class="col-md-8">
 							<h3 class="jtron-h3">My Tech Toolbox:</h3>
 							<div class="progress">
-								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="20"
+								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="10"
 									  aria-valuemin="0"
 									  aria-valuemax="100" style="width:20%">
 									mySQL
 								</div>
 							</div>
 							<div class="progress">
-								<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20"
+								<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40"
 									  aria-valuemin="0"
 									  aria-valuemax="100" style="width:20%">
 									PHP 5.6 & 7.0
 								</div>
 							</div>
 							<div class="progress">
-								<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="20"
+								<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="10"
 									  aria-valuemin="0"
 									  aria-valuemax="100" style="width:20%">
 									JavaScript
 								</div>
 							</div>
 							<div class="progress">
-								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="10"
+								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="05"
 									  aria-valuemin="0"
 									  aria-valuemax="100" style="width:10%">
 									Angular.js
@@ -167,43 +167,40 @@
 				<!--end of tool box-->
 
 				<!-- Projects Row 1-->
-					<!-- Project 1 -->
+				<!-- Project 1 -->
 				<div class="row">
 					<div class="col-md-6 portfolio-item">
-						<a href="http://time-crunch.com">
-							<img class="img-responsive" src="images/timecrunch.jpg" alt="timecrunch">
-						</a>
+						<img class="img-responsive" src="images/timecrunch.jpg" alt="timecrunch">
 						<h3>
 							Project One
 						</h3>
-						<p>Time Crunch - my team capstone project - is a schedule management application developed with PHP, MySQL, Bootstrap and Angular.js.</p>
+						<p>Time Crunch - my Deep Dive Bootcamp capstone project - was a schedule management application
+							developed with
+							PHP, MySQL, Bootstrap and Angular.js. </p>
 					</div>
-						<!-- Project 2 -->
+					<!-- Project 2 -->
 					<div class="col-md-6 portfolio-item">
-						<a href="#">
-							<img class="img-responsive" src="images/silverH.jpg" alt="sample page">
-						</a>
+						<img class="img-responsive" src="images/silverH.jpg" alt="sample page">
 						<h3>
 							Silver Horizons
 						</h3>
-						<p>I volunteer with Silver Horizons as a web developer to update and further develop their non-profit website.</p>
+						<p>I volunteer with Silver Horizons as a web developer to update and further develop their non-profit
+							website.</p>
 					</div>
 				</div>
 				<!-- /.row -->
 
 				<!-- Projects Row 2-->
-					<!-- Project 3 -->
+				<!-- Project 3 -->
 				<div class="row">
 					<div class="col-md-6 portfolio-item">
-						<a href="#">
-							<img class="img-responsive" src="http://placehold.it/700x400" alt="">
-						</a>
+						<img class="img-responsive" src="http://placehold.it/700x400" alt="">
 						<h3>
-							<a href="#">Project Three</a>
+							Project Three
 						</h3>
 						<p>Coming Soon!</p>
 					</div>
-						<!-- Project 4 -->
+					<!-- Project 4 -->
 					<div class="col-md-6 portfolio-item">
 						<a href="https://plnkr.co/dRZTXo76WOEcqr8ip8fk">
 							<img class="img-responsive" src="images/siMonSiteLink.jpg"
@@ -213,7 +210,8 @@
 							<a href="https://plnkr.co/dRZTXo76WOEcqr8ip8fk">SiMonZon</a>
 						</h3>
 						<p>This was an afternoon practice project I created using JavaScript, HTML5, CSS3 and Bootstrap. I
-							started it on the Plunker website and then moved to PhpStorm to complete it.  (Plunker Link has no images.)</p>
+							started it on the Plunker website and then moved to PhpStorm to complete it. (Plunker Link has no
+							images.)</p>
 					</div>
 				</div>
 			</div>
@@ -289,7 +287,8 @@
 			<!-- The div class="form-wrap" is the black box containing the form. It's set to a column width of 12 for small screens, and a column width of 6 for medium screens on up -->
 			<div class="container">
 				<h2 class="jtron-h2" id="contact">Let's Talk</h2>
-				<h3 class="jtron-h3">I am employed with <a href="http://11online.us">11 Online</a> as a Web Developer / Project Manager.</h3>
+				<h3 class="jtron-h3">I am employed with <a href="http://11online.us">11 Online</a> as a Web Developer /
+					Project Manager.</h3>
 				<a href="http://www.linkedin.com/in/el41net"><h4>Connect With Me on LinkedIn</h4></a>
 				<div class="col-xs-12 col-md-7 form-wrap">
 

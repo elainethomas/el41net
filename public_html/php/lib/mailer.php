@@ -24,7 +24,7 @@ try {
 
 	// this takes the form of an associative array where the Email is the key for the real name
 
-	$swiftMessage->setFrom($recipients = ["el41net@el41net.com" => "Elaine Thomas"]);
+	$swiftMessage->setFrom($recipients = ["el41net@gmail.com" => "Elaine Thomas"]);
 
 	/**
 	 * attach the recipients to the message
