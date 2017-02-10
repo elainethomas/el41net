@@ -9,13 +9,13 @@
 
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
-		      integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
-		      crossorigin="anonymous"/>
+				integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+				crossorigin="anonymous"/>
 
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
-		      integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r"
-		      crossorigin="anonymous"/>
+				integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r"
+				crossorigin="anonymous"/>
 
 		<!-- Font Awesome -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -35,8 +35,8 @@
 
 		<!-- Latest compiled and minified Bootstrap JavaScript, all compiled plugins included -->
 		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
-		        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
-		        crossorigin="anonymous"></script>
+				  integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+				  crossorigin="anonymous"></script>
 
 		<!--		LinkedIn-->
 		<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
@@ -53,7 +53,7 @@
 				<div class="navbar-header">
 					<!--<h3>there used to be sumpin here</h3>  88 not sure if i want this here right now-->
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-					        data-target="#top-nav" aria-expanded="false">
+							  data-target="#top-nav" aria-expanded="false">
 						<span class="sr-only">Toggle navigation</span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
@@ -94,9 +94,9 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<h1 class="page-header"><span class="jtron-h2" id="portfolio">Portfolio</span><br>
-							<small><a href="https://github.com/ethomas12">
-									See My GitHub<img src="images/gitButn.png" alt="octoCat"
-									                  id="lilKitty">
+							<small>
+								<a href="https://github.com/ethomas12">
+									See My GitHub<img src="images/gitButn.png" alt="octoCat" id="lilKitty"></a>
 							</small>
 						</h1>
 					</div>
@@ -106,58 +106,51 @@
 				<!-- /row -->
 
 				<!--tech toolbox progress bar-->
+				<h3 class="jtron-h3">My Tech Toolbox:</h3>
 				<div class="container">
 					<div class="row">
 						<div class="col-md-2"></div>
 						<div class="col-md-8">
-							<h3 class="jtron-h3">My Tech Toolbox:</h3>
 							<div class="progress">
-								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="10"
-								     aria-valuemin="0"
-								     aria-valuemax="100" style="width:20%">
-									mySQL
-								</div>
-							</div>
-							<div class="progress">
-								<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40"
-								     aria-valuemin="0"
-								     aria-valuemax="100" style="width:20%">
-									PHP 5.6 & 7.0
-								</div>
-							</div>
-							<div class="progress">
-								<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="10"
-								     aria-valuemin="0"
-								     aria-valuemax="100" style="width:20%">
-									JavaScript
-								</div>
-							</div>
-							<div class="progress">
-								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="05"
-								     aria-valuemin="0"
-								     aria-valuemax="100" style="width:10%">
-									Angular.js
-								</div>
-							</div>
-							<div class="progress">
-								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
-								     aria-valuemin="0"
-								     aria-valuemax="100" style="width:40%">
-									BootStrap
-								</div>
-							</div>
-							<div class="progress">
-								<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="70"
-								     aria-valuemin="0"
-								     aria-valuemax="100" style="width:70%">
+								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="75"
+									  aria-valuemin="0"
+									  aria-valuemax="100" style="width:75%">
 									CSS3
 								</div>
 							</div>
 							<div class="progress">
 								<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70"
-								     aria-valuemin="0"
-								     aria-valuemax="100" style="width:70%">
+									  aria-valuemin="0"
+									  aria-valuemax="100" style="width:70%">
 									HTML5
+								</div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+									  aria-valuemin="0"
+									  aria-valuemax="100" style="width:40%">
+									PHP 5.6 & 7.0
+								</div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="10"
+									  aria-valuemin="0"
+									  aria-valuemax="100" style="width:20%">
+									mySQL
+								</div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="10"
+									  aria-valuemin="0"
+									  aria-valuemax="100" style="width:10%">
+									JavaScript
+								</div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="07"
+									  aria-valuemin="0"
+									  aria-valuemax="100" style="width:07%">
+									Angular.js
 								</div>
 							</div>
 						</div>
@@ -168,6 +161,40 @@
 				<br>
 				<br>
 				<!--end of tool box-->
+				<div>
+					<h3 class="jtron-h3">I have also worked with the following technologies:</h3><br>
+					<table>
+						<thead>
+							<tr>
+								<th><h4 class="jtron-h4">Frameworks</h4></th>
+								<th><h4 class="jtron-h4">Databases</h4></th>
+								<th><h4 class="jtron-h4">Miscellaneous</h4></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td> WordPress</td>
+								<td> My SQL</td>
+								<td> Git</td>
+							</tr>
+							<tr>
+								<td> Sass</td>
+								<td> MongoDB</td>
+								<td> Vagrant</td>
+							</tr>
+							<tr>
+								<td> Bootstrap</td>
+								<td></td>
+								<td></td>
+							<tr>
+								<td> Laravel</td>
+								<td></td>
+								<td></td>
+							</tr>
+							</tr>
+						</tbody>
+					</table>
+				</div>
 
 				<!-- Projects Row 1-->
 				<!-- Project 1 -->
@@ -187,8 +214,7 @@
 						<h3>
 							Silver Horizons
 						</h3>
-						<p>I volunteer with Silver Horizons as a web developer to update and further develop their
-							non-profit
+						<p>I volunteer with Silver Horizons as a web developer to update and further develop their non-profit
 							website.</p>
 					</div>
 				</div>
@@ -208,15 +234,13 @@
 					<div class="col-md-6 portfolio-item">
 						<a href="https://plnkr.co/dRZTXo76WOEcqr8ip8fk">
 							<img class="img-responsive" src="images/siMonSiteLink.jpg"
-							     alt="screencap of SiMonZon Bootstrap, JS Practice">
+								  alt="screencap of SiMonZon Bootstrap, JS Practice">
 						</a>
-						<h3 id="simonzon">
+						<h3>
 							<a href="https://plnkr.co/dRZTXo76WOEcqr8ip8fk">SiMonZon</a>
 						</h3>
-						<p>This was an afternoon practice project I created using JavaScript, HTML5, CSS3 and Bootstrap.
-							I
-							started it on the Plunker website and then moved to PhpStorm to complete it. (Plunker Link
-							has no
+						<p>This was an afternoon practice project I created using JavaScript, HTML5, CSS3 and Bootstrap. I
+							started it on the Plunker website and then moved to PhpStorm to complete it. (Plunker Link has no
 							images.)</p>
 					</div>
 				</div>
@@ -240,10 +264,8 @@
 						<img src="images/telecom.jpg" alt="me last day old job" class="myImages">
 						<h4 class="jtron-h4">I Have A Solid Work History</h4>
 						<p>
-							Working in the telecom industry gave me a chance to learn snippets of proprietary
-							programming
-							languages but I yearned to learn more than online courses could teach me. I decided to make
-							a
+							Working in the telecom industry gave me a chance to learn snippets of proprietary programming
+							languages but I yearned to learn more than online courses could teach me. I decided to make a
 							career change and returned to school to learn web
 							development.
 						</p>
@@ -255,10 +277,8 @@
 						<img src="images/kittyPueblo.jpg" alt="Kitty Pueblo" class="myImages">
 						<h4 class="jtron-h4">I Like Making Stuff</h4>
 						<p>
-							I enjoy the process of creation. Whether it's the art of baking a lovely loaf of bread or
-							the
-							technical specifications necessary to produce a papier-mâché pueblo for cats - there is
-							always
+							I enjoy the process of creation. Whether it's the art of baking a lovely loaf of bread or the
+							technical specifications necessary to produce a papier-mâché pueblo for cats - there is always
 							learning involved and (usually) joy in the results.
 						</p>
 					</div>
@@ -270,12 +290,9 @@
 						<img src="images/gaming.jpg" alt="game group" class="myImages">
 						<h4 class="jtron-h4">Gaming!</h4>
 						<p>
-							Cooperative gaming is my favorite game style. I relish gaming in several forms - online
-							(most
-							recently Destiny), tabletop (Ascension, Magic The Gathering, Fluxx), and pen & paper role
-							playing
-							games (Pathfinder). By no means is this all of the games I enjoy. I like to learn new games
-							too.
+							Cooperative gaming is my favorite game style. I relish gaming in several forms - online (most
+							recently Destiny), tabletop (Ascension, Magic The Gathering, Fluxx), and pen & paper role playing
+							games (Pathfinder). By no means is this all of the games I enjoy. I like to learn new games too.
 						</p>
 					</div>
 					<div class="col-md-2"></div>
@@ -285,8 +302,7 @@
 						<img src="images/dance.jpg" alt="me at So Ya Think You Can Dance" class="myImages">
 						<h4 class="jtron-h4">I <span class="glyphicon glyphicon-heart-empty"></span> to Dance</h4>
 						<p>
-							“‎Dancing is not just getting up painlessly, like a leaf blown on the wind; dancing is when
-							you
+							“‎Dancing is not just getting up painlessly, like a leaf blown on the wind; dancing is when you
 							tear your heart out and rise out of your body to hang suspended between the worlds.” ~Rumi
 						</p>
 					</div>
@@ -299,11 +315,9 @@
 			<!-- Beginning of contact page contact form template from DDCB -->
 
 			<!-- The div class="form-wrap" is the black box containing the form. It's set to a column width of 12 for small screens, and a column width of 6 for medium screens on up -->
-			<div class="contact">
-				<h2 class="jtron-h2" id="contact">Let's Talk</h2>
-				<h4 class="jtron-h4">Currently, I am employed with <a href="http://11online.us">11 Online</a> as a Web
-					Developer / Project Manager.</h4>
-			</div>
+			<h2 class="jtron-h2" id="contact">Let's Talk</h2>
+			<h4 class="jtron-h4">Currently, I am employed with <a href="http://11online.us">11 Online</a> as a Web
+				Developer / Project Manager.</h4>
 			<div class="container">
 				<div class="row">
 					<!-- begin form from DDBC-->
@@ -324,8 +338,7 @@
 									<div class="input-group-addon">
 										<i class="fa fa-envelope" aria-hidden="true"></i>
 									</div>
-									<input type="email" class="form-control" id="email" name="email"
-									       placeholder="Email">
+									<input type="email" class="form-control" id="email" name="email" placeholder="Email">
 								</div>
 							</div>
 							<div class="form-group">
@@ -334,8 +347,7 @@
 									<div class="input-group-addon">
 										<i class="fa fa-pencil" aria-hidden="true"></i>
 									</div>
-									<input type="text" class="form-control" id="subject" name="subject"
-									       placeholder="Subject">
+									<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
 								</div>
 							</div>
 							<div class="form-group">
@@ -345,11 +357,10 @@
 										<i class="fa fa-comment" aria-hidden="true"></i>
 									</div>
 									<textarea class="form-control" rows="5" id="message" name="message"
-									          placeholder="Message"></textarea>
+												 placeholder="Message"></textarea>
 								</div>
 							</div>
-							<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send
-							</button>
+							<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 							<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
 						</form>
 					</div>
@@ -360,8 +371,8 @@
 					<div class="col-md-6 linkedin">
 						<h4>Connect With Me on LinkedIn</h4>
 						<div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="en_US"
-						     data-type="horizontal" data-theme="dark" data-vanity="el41net"><a class="LI-simple-link"
-						                                                                       href='https://www.linkedin.com/in/el41net?trk=profile-badge'>Elaine
+							  data-type="horizontal" data-theme="dark" data-vanity="el41net"><a class="LI-simple-link"
+																													  href='https://www.linkedin.com/in/el41net?trk=profile-badge'>Elaine
 								Thomas</a></div>
 						<div class="col-xs-12 col-md-7 form-wrap"></div>
 					</div><!--			/col-->

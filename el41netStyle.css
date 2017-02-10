@@ -131,10 +131,6 @@ form#sample-form {
 	margin-top: 0;
 }
 
-.contact {
-	margin-left: 2em;
-}
-
 /********************************************
 * Input Field Styles from DDBC
 ********************************************/
@@ -181,22 +177,23 @@ form#sample-form {
 
 /* End of form styles*/
 
-
-/*LinkedIn badge*/
-
 .LI-profile-badge, .linkedin h4 {
 	text-align: right;
 }
 
-#simonzon {
-	width: auto;
-	height: 318px;
+/*Portfolio Table Styles*/
+
+table {
+	margin: 0 auto 4em;
+	color: #cb7832;
 }
 
-
-.LI-view-profile {
-	margin-right: 3em;
+th, td {
+	padding: 0 2em;
+	text-align: left;
+	border: 1px #a4c161 dotted;
 }
+
 
 
 
