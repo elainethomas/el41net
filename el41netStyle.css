@@ -177,8 +177,14 @@ form#sample-form {
 
 /* End of form styles*/
 
+/*LinkedIn badge*/
+
 .LI-profile-badge, .linkedin h4 {
 	text-align: right;
+}
+
+.padded-bottom {
+	padding-bottom: 4em;
 }
 
 /*Portfolio Table Styles*/

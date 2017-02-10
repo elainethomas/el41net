@@ -38,9 +38,6 @@
 				  integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
 				  crossorigin="anonymous"></script>
 
-		<!--		LinkedIn-->
-		<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-
 		<!--Custom JavaScript File-->
 		<script src="public_html/java-script/common.js"></script>
 
@@ -198,7 +195,7 @@
 
 				<!-- Projects Row 1-->
 				<!-- Project 1 -->
-				<div class="row">
+				<div class="row padded-bottom">
 					<div class="col-md-6 portfolio-item">
 						<img class="img-responsive" src="images/timecrunch.jpg" alt="timecrunch">
 						<h3>
@@ -370,9 +367,11 @@
 
 					<div class="col-md-6 linkedin">
 						<h4>Connect With Me on LinkedIn</h4>
+						<!--		LinkedIn-->
+						<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 						<div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="en_US"
-							  data-type="horizontal" data-theme="dark" data-vanity="el41net"><a class="LI-simple-link"
-																													  href='https://www.linkedin.com/in/el41net?trk=profile-badge'>Elaine
+							  data-type="horizontal" data-theme="dark" data-vanity="infinite-possibilities"><a class="LI-simple-link"
+																													  href='https://www.linkedin.com/in/infinite-possibilities?trk=profile-badge'>Elaine
 								Thomas</a></div>
 						<div class="col-xs-12 col-md-7 form-wrap"></div>
 					</div><!--			/col-->
