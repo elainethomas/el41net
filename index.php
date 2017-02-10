@@ -38,6 +38,9 @@
 				  integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
 				  crossorigin="anonymous"></script>
 
+		<!--		LinkedIn-->
+		<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
 		<!--Custom JavaScript File-->
 		<script src="public_html/java-script/common.js"></script>
 
@@ -285,58 +288,69 @@
 			<!-- Beginning of contact page contact form template from DDCB -->
 
 			<!-- The div class="form-wrap" is the black box containing the form. It's set to a column width of 12 for small screens, and a column width of 6 for medium screens on up -->
+			<h2 class="jtron-h2" id="contact">Let's Talk</h2>
+			<h4 class="jtron-h4">Currently, I am employed with <a href="http://11online.us">11 Online</a> as a Web
+				Developer / Project Manager.</h4>
 			<div class="container">
-				<h2 class="jtron-h2" id="contact">Let's Talk</h2>
-				<h3 class="jtron-h3">I am employed with <a href="http://11online.us">11 Online</a> as a Web Developer /
-					Project Manager.</h3>
-				<a href="http://www.linkedin.com/in/el41net"><h4>Connect With Me on LinkedIn</h4></a>
-				<div class="col-xs-12 col-md-7 form-wrap">
-
+				<div class="row">
 					<!-- begin form from DDBC-->
-					<form id="contact-form" action="php/lib/mailer.php" method="post">
-						<div class="form-group">
-							<label for="name">Name</label>
-							<div class="input-group">
-								<div class="input-group-addon">
-									<i class="fa fa-user" aria-hidden="true"></i>
+					<div class="col-md-6">
+						<form id="contact-form" action="php/lib/mailer.php" method="post">
+							<div class="form-group">
+								<label for="name">Name</label>
+								<div class="input-group">
+									<div class="input-group-addon">
+										<i class="fa fa-user" aria-hidden="true"></i>
+									</div>
+									<input type="text" class="form-control" id="name" name="name" placeholder="Name">
 								</div>
-								<input type="text" class="form-control" id="name" name="name" placeholder="Name">
 							</div>
-						</div>
-						<div class="form-group">
-							<label for="email">Email address</label>
-							<div class="input-group">
-								<div class="input-group-addon">
-									<i class="fa fa-envelope" aria-hidden="true"></i>
+							<div class="form-group">
+								<label for="email">Email address</label>
+								<div class="input-group">
+									<div class="input-group-addon">
+										<i class="fa fa-envelope" aria-hidden="true"></i>
+									</div>
+									<input type="email" class="form-control" id="email" name="email" placeholder="Email">
 								</div>
-								<input type="email" class="form-control" id="email" name="email" placeholder="Email">
 							</div>
-						</div>
-						<div class="form-group">
-							<label for="subject">Subject</label>
-							<div class="input-group">
-								<div class="input-group-addon">
-									<i class="fa fa-pencil" aria-hidden="true"></i>
+							<div class="form-group">
+								<label for="subject">Subject</label>
+								<div class="input-group">
+									<div class="input-group-addon">
+										<i class="fa fa-pencil" aria-hidden="true"></i>
+									</div>
+									<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
 								</div>
-								<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
 							</div>
-						</div>
-						<div class="form-group">
-							<label for="message">Message</label>
-							<div class="input-group">
-								<div class="input-group-addon">
-									<i class="fa fa-comment" aria-hidden="true"></i>
+							<div class="form-group">
+								<label for="message">Message</label>
+								<div class="input-group">
+									<div class="input-group-addon">
+										<i class="fa fa-comment" aria-hidden="true"></i>
+									</div>
+									<textarea class="form-control" rows="5" id="message" name="message"
+												 placeholder="Message"></textarea>
 								</div>
-								<textarea class="form-control" rows="5" id="message" name="message"
-											 placeholder="Message"></textarea>
 							</div>
-						</div>
-						<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-						<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
-					</form>
-				</div>
-			</div>
-			<div id="output-area"></div>
-			<!-- CLOSE FORM WRAP -->
+							<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+							<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+						</form>
+					</div>
+
+					<div id="output-area"></div>
+					<!-- CLOSE FORM WRAP -->
+
+					<div class="col-md-6 linkedin">
+						<h4>Connect With Me on LinkedIn</h4>
+						<div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="en_US"
+							  data-type="horizontal" data-theme="dark" data-vanity="el41net"><a class="LI-simple-link"
+																													  href='https://www.linkedin.com/in/el41net?trk=profile-badge'>Elaine
+								Thomas</a></div>
+						<div class="col-xs-12 col-md-7 form-wrap"></div>
+					</div><!--			/col-->
+				</div><!--				/container-->
+
+
 	</body>
 </html>

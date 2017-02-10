@@ -25,6 +25,7 @@ body {
 nav.navbar {
 	padding-right: 20px;
 }
+
 /*this formats the background image on the header*/
 .bg {
 	background-image: url("images/background.jpg");
@@ -51,7 +52,7 @@ nav.navbar {
 }
 
 .jtron-h3 {
-color: #a4c161;
+	color: #a4c161;
 }
 
 .jtron-h4, label {
@@ -175,5 +176,11 @@ form#sample-form {
 }
 
 /* End of form styles*/
+
+.LI-profile-badge, .linkedin h4 {
+	text-align: right;
+}
+
+
 
 
