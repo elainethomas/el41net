@@ -131,6 +131,10 @@ form#sample-form {
 	margin-top: 0;
 }
 
+.contact {
+	margin-left: 2em;
+}
+
 /********************************************
 * Input Field Styles from DDBC
 ********************************************/
@@ -177,6 +181,9 @@ form#sample-form {
 
 /* End of form styles*/
 
+
+/*LinkedIn badge*/
+
 .LI-profile-badge, .linkedin h4 {
 	text-align: right;
 }
@@ -186,7 +193,10 @@ form#sample-form {
 	height: 318px;
 }
 
-.contact {
-margin-left: 2em;
+
+.LI-view-profile {
+	margin-right: 3em;
 }
+
+
 
