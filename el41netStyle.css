@@ -35,6 +35,11 @@ nav.navbar {
     left: 0;
     z-index: -1;
     opacity: 0.12;
+    border-bottom: 2px solid #a4c161;
+}
+
+hr {
+    border-top: #a4c161 2px solid
 }
 
 /* This formats the Jumbotron*/
@@ -202,10 +207,12 @@ th, td {
     margin: 0 auto;
 }
 
-.main {
-    max-width: 1200px;
-    margin: 0 auto;
+main {
+    width: 100%;
+    /*z-index: -1;*/
+    /*background: url("/public_html/images/stars.jpg") repeat;*/
 }
+
 .center {
     text-align: center;
 }
@@ -213,6 +220,10 @@ th, td {
 .LI-profile-badge {
     margin: 2em;
 }
+
+/*.bg-main {*/
+    /*background-color: rgba(29, 27, 28, 0.1);*/
+/*}*/
 
 @media screen and (min-width: 768px) {
     .container .jumbotron, .container-fluid .jumbotron {
