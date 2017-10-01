@@ -194,20 +194,18 @@
             <div class="col-md-6 portfolio-item">
                 <img class="img-responsive" src="images/timecrunch.jpg" alt="timecrunch">
                 <h3>
-                    Project One
+                    Bootcamp Capstone Project
                 </h3>
-                <p>Time Crunch - my Deep Dive Bootcamp capstone project - was a schedule management application
-                    developed with
-                    PHP, MySQL, Bootstrap and Angular.js. </p>
+                <p>Time Crunch - For Deep Dive Bootcamp, team built schedule management tool
+                    developed with Bootstrap, PHP, MySQL, and Angular.js. </p>
             </div>
             <!-- Project 2 -->
             <div class="col-md-6 portfolio-item">
                 <img class="img-responsive" src="images/silverH.jpg" alt="sample page">
                 <h3>
-                    Silver Horizons
+                    Not-for-Profit
                 </h3>
-                <p>I volunteer with Silver Horizons as a web developer to update and further develop their non-profit
-                    website.</p>
+                <p>I volunteered with Silver Horizons as a web developer to update and further develop their website.</p>
             </div>
         </div>
         <!-- /.row -->
@@ -216,11 +214,12 @@
         <!-- Project 3 -->
         <div class="row">
             <div class="col-md-6 portfolio-item">
-                <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                <img class="img-responsive" src="images/tiny-cpr.png"
+                     alt="screen capture of website">
                 <h3>
-                    Project Three
+                    University Research Model
                 </h3>
-                <p>Coming Soon!</p>
+                <p>Large custom WordPress website showcasing research model and methods including videos and interactive infographics.</p>
             </div>
             <!-- Project 4 -->
             <div class="col-md-6 portfolio-item">
@@ -323,8 +322,9 @@
 
     </div>
     <footer class="footer">
-        <div class="container">
-            <p class="text-muted">Contact information: <a href="mailto:someone@example.com">someone@example.com</a>.</p>
+        <div class="container center">
+            <p class="text-muted">Contact information: <a href="mailto:someone@example.com">info@infinite-possibilities.us</a>
+            </p>
         </div>
     </footer>
 </body>
