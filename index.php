@@ -63,7 +63,7 @@
                 <li><a href="#">Hello</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#aboutMe">About Me</a></li>
-                <li><a href="#contact">Let's Talk</a></li>
+                <li><a href="#contact">Let's Connect</a></li>
             </ul>
         </div>
     </nav>
@@ -298,8 +298,9 @@
         </div>
         <hr>
         <!-- The div class="form-wrap" is the black box containing the form. It's set to a column width of 12 for small screens, and a column width of 6 for medium screens on up -->
-        <div class="container"><h1 class="jtron-h2" id="contact">Let's Connect</h1>
-            <h3 class="jtron-h3 center">I work with <a href="http://11online.us">11 Online</a> as a Web
+        <div class="container">
+            <h1 class="jtron-h2">Let's Connect</h1>
+            <h3 class="jtron-h3 center" id="contact">I work with <a href="http://11online.us">11 Online</a> as a Web
                 Developer / Project Manager.</h3></div>
         <div class="container">
             <div class="row">
@@ -314,8 +315,8 @@
                             href='https://www.linkedin.com/in/infinite-possibilities?trk=profile-badge'>Elaine Thomas</a>
                     </div>
 
-                </div><!--			/col-->
-            </div><!--				/container-->
+                </div><!--/col-->
+            </div><!--/container-->
 
         </div>
         <hr>
